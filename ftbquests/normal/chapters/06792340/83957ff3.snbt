@@ -1,0 +1,37 @@
+{
+	title: "Ground Netherrack",
+	icon: "betterwithmods:material 1 15",
+	x: 4.5d,
+	y: 7.0d,
+	text: [
+		"Ground Netherrack is created by placing Netherrack in a mechanically powered Mill Stone.",
+		"",
+		"Soul sand is a block only naturally found in the Nether. ",
+		"",
+		"You should put it in your filtered hopper as a filter."
+	],
+	dependencies: [
+		"f3efe406"
+	],
+	tasks: [{
+		uid: "3edc9ea9",
+		type: "item",
+		items: [{
+			item: "betterwithmods:material 1 15"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "86dc3cf0",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1b4cdc9",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

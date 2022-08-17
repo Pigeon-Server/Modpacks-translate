@@ -1,0 +1,46 @@
+{
+	title: "Crucible",
+	icon: "betterwithmods:cooking_pot",
+	x: 6.5d,
+	y: 1.0d,
+	text: [
+		"To create an Unfired Crucible, place a Clay block on an active Turntable and let it complete two rotations. Each step will mold the pottery into smaller forms.",
+		"",
+		"The Crucible is a device used primary for metalworking. It requires a Bellows and stoked Hibachi(s) underneath in order to function properly. The Crucible can be used to make Soulforged Steel and re-smelt various items."
+	],
+	dependencies: [
+		"1410df02"
+	],
+	tasks: [{
+		uid: "6601bd8e",
+		type: "item",
+		items: [{
+			item: "betterwithmods:cooking_pot"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d1b15943",
+		type: "item",
+		items: [{
+			item: "betterwithmods:material 1 13"
+		}]
+	},
+	{
+		uid: "aaae5df8",
+		type: "item",
+		items: [{
+			item: "betterwithmods:material 1 50"
+		}]
+	}],
+	rewards: [{
+		uid: "2229b1f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "food_crate"
+			}
+		}
+	}]
+}

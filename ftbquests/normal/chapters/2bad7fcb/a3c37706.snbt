@@ -1,0 +1,26 @@
+{
+	title: "Shiny!",
+	icon: "chancecubes:chance_cube",
+	x: 2.0d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"66dd9fda"
+	],
+	tasks: [{
+		uid: "4e2f1cf2",
+		type: "item",
+		items: [{
+			item: "jjcoin:gold_coin"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dd6904c0",
+		type: "item",
+		item: "chancecubes:chance_cube 1 100"
+	}]
+}

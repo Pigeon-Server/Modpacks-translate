@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	text: [
+		"Rudder module (Navigation - Rudder item): Allows control of the movement of the boat. Needs a Seat module to be used. Can be set to non-blocking (see engine modules)."
+	],
+	dependencies: [
+		"de61bf7d"
+	],
+	tasks: [{
+		uid: "77db3809",
+		type: "item",
+		items: [{
+			item: "moarboats:rudder"
+		}]
+	}],
+	rewards: [{
+		uid: "5ca6a687",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d3e586ae",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

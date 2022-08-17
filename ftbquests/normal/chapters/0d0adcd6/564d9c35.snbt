@@ -1,0 +1,40 @@
+{
+	title: "Portable Generator",
+	icon: "immersivepetroleum:metal_device 1 1",
+	x: 14.0d,
+	y: 9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5cd91ab8"
+	],
+	tasks: [{
+		uid: "9e68d184",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:metal_device 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1bc2b621",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "6641f50f",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "gasoline",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 10
+	}]
+}

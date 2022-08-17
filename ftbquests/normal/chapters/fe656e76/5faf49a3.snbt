@@ -1,0 +1,29 @@
+{
+	x: 5.0d,
+	y: 11.0d,
+	text: [
+		"The basic wooden rail. Capable of making corners and traversing slopes. Functionally equivalent to normal rails, only with a lower maximum speed (for safety reasons).",
+		"",
+		"Recommended uses include scenic tours, precision timing applications, and Dinosaur Parks (even Dinos have to eat)."
+	],
+	dependencies: [
+		"fb3497e3"
+	],
+	tasks: [{
+		uid: "9d04d2eb",
+		type: "item",
+		items: [{
+			item: "railcraft:track_flex_strap_iron"
+		}]
+	}],
+	rewards: [{
+		uid: "f4572fd5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "toolparts_crate"
+			}
+		}
+	}]
+}

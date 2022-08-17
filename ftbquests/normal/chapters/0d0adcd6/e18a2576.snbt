@@ -1,0 +1,29 @@
+{
+	title: "Hv connector",
+	icon: "immersiveengineering:connector 1 4",
+	x: 9.0d,
+	y: 0.0d,
+	text: [
+		"It is used to input and output Redstone Flux (RF) from HV Wire Coils.",
+		"",
+		"Right-clicking a HV Wire Connector with a HV Wire Coil links the first end of the cable. Right-clicking a different HV Wire Connector will connect them.",
+		"",
+		"Note a HV Wire Coil can only stretch 32 blocks in length, but a HV Wire Relay can be used to connect them; the HV Wire Connector cannot act like a relay itself: meaning that you may only have one connection per HV Wire Connector."
+	],
+	dependencies: [
+		"29d4c63d"
+	],
+	tasks: [{
+		uid: "87261895",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4709399d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

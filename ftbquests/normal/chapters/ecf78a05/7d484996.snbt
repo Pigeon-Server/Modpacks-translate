@@ -1,0 +1,25 @@
+{
+	title: "Printed Silicon",
+	icon: "enderio:item_material 1 5",
+	x: 3.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"69a46ccd"
+	],
+	tasks: [{
+		uid: "74a2b048",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d13c912c",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

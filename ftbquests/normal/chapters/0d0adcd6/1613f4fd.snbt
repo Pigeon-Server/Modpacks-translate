@@ -1,0 +1,31 @@
+{
+	title: "MV",
+	icon: "immersiveengineering:metal_device0 1 1",
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"It is used to store Redstone Flux (RF), up to 1,000,000.",
+		"",
+		"Each side of the block has a certain configuration: no dots indicates no energy input or output, one blue dot and one orange dot indicating an input, and two orange dots indicating an output. Right-clicking the capacitor with the Engineer's Hammer",
+		"will change this configuration (shift-right-clicking will change the side opposite the player clicks).",
+		"",
+		"The MV Capacitor has no GUI. To find the current energy storage amount, WAILA or an Engineer's Voltmeter can be used."
+	],
+	dependencies: [
+		"44715b55"
+	],
+	tasks: [{
+		uid: "295009b3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d43120b5",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	}]
+}

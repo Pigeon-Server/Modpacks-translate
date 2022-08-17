@@ -1,0 +1,31 @@
+{
+	title: "Wind Mill",
+	icon: "immersiveengineering:wooden_device1 1 1",
+	x: 1.0d,
+	y: 4.0d,
+	text: [
+		"The Wind Mill is the first form of continuous mechanical power generation available to the player and is required to advance"
+	],
+	dependencies: [
+		"30ce5986",
+		"ba00da80"
+	],
+	tasks: [{
+		uid: "3ab14af2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b64d71c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "materials_crate"
+			}
+		}
+	}]
+}

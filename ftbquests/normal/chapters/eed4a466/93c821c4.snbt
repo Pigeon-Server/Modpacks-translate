@@ -1,0 +1,44 @@
+{
+	x: 4.0d,
+	y: 5.5d,
+	text: [
+		"Backpacks are 15 slot containers which are restricted to certain classes of items. A Miner's Backpack for example will only hold ingots, ores and gems. It's not possible to put non-matching items into a backpack, they will simply stay selected on the",
+		"cursor.",
+		"",
+		"A backpack allows you to dump its contents by holding the shift key down and right-clicking on a chest. As long as there is space in the chest, the backpack will then unload its entire inventory into it.",
+		"",
+		"Items you pick up will be automatically sorted into matching backpacks, keeping your inventory clean and your hassle to a minimum. One important quirk: If you have matching item stacks in your normal inventory, those will be topped off first before",
+		"dumping items in the backpack. That way you can be sure to always have a stack of cobble or dirt at the ready.",
+		"",
+		"Backpacks have different “modes”, which can be switched by crouching and right-clicking (anywhere but chests or other machines) with the backpack selected. This will cycle the backpack through four modes:",
+		"",
+		"1. Normal Mode: Will receive items only after the corresponding inventory stacks are topped. Right-clicking a chest while crouching will dump all contents of the backpack into the chest.",
+		"2. Locked Mode: Will not receive items. Chest interaction is the same as in normal mode.",
+		"3. Receiving Mode: Will receive items as in normal mode. Right-clicking a chest while crouching will fill the backpack with all the chest's matching items.",
+		"4. Resupply Mode: Will receive items as in normal mode, but also restock the player's inventory stacks with the corresponding items from the backpack automatically. Chest interaction is the same as in normal mode."
+	],
+	dependencies: [
+		"d47c21d9"
+	],
+	tasks: [{
+		uid: "f573b522",
+		type: "item",
+		items: [{
+			item: "forestry:adventurer_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6a0312e",
+		type: "item",
+		item: "minecraft:ladder",
+		count: 16
+	},
+	{
+		uid: "bda0d6ee",
+		type: "item",
+		item: "minecraft:torch",
+		count: 8
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Steel Axle",
+	icon: "betterwithmods:steel_axle",
+	x: 8.5d,
+	y: 2.0d,
+	text: [
+		"Upgraded Wooden Axle"
+	],
+	dependencies: [
+		"30328168"
+	],
+	tasks: [{
+		uid: "b22f4dad",
+		type: "item",
+		items: [{
+			item: "betterwithmods:steel_axle"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb237ac1",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

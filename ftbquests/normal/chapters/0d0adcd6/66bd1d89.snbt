@@ -1,0 +1,38 @@
+{
+	title: "Transformers",
+	icon: "immersiveengineering:connector 1 7",
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"It is used convert LV RF (from a LV Wire Coil) to MV RF (from a MV Wire Coil), and vice versa.",
+		"",
+		"Right-clicking a Transformer with a Copper/Electrum Wire Coil links the first end of the cable. Right-clicking it with a different Copper/Electrum Wire Coil will connect it to the Transformer, allowing them to be converted to each other.",
+		"",
+		"The Transformer can be placed on a Wooden Post for aesthetic purposes.",
+		"",
+		"Engineer's Wire Cutters can be used to disconnect wires with a right-click.",
+		"",
+		"For transformering HV to MV or LV (and visa versa), a HV Transformer is needed. The High-Voltage Wire Coil will not connect to a normal transformer."
+	],
+	dependencies: [
+		"1613f4fd"
+	],
+	tasks: [{
+		uid: "180fcf3a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b40f93f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "potion_crate"
+			}
+		}
+	}]
+}

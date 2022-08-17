@@ -1,0 +1,25 @@
+{
+	title: "Need more food",
+	icon: "vanillafoodpantry:stewed 1 10",
+	x: 7.5d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"61ef2f0e"
+	],
+	tasks: [{
+		uid: "50312056",
+		type: "item",
+		items: [{
+			item: "vanillafoodpantry:stewed 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bfe8b0f4",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

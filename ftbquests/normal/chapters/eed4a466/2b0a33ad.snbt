@@ -1,0 +1,42 @@
+{
+	x: -10.0d,
+	y: 6.5d,
+	text: [
+		"P.S. These quests are designed to be some sort of a guide or a proposed progression. You can always do things how you like and don't follow this quests and just come here from time to time if you need some resources or just lost.",
+		"",
+		"Also, don't forget that there are Advancements made by mod authors. You can always check them if you don't know how to progress further.",
+		"",
+		"Discord link of this pack can be found in the upper right corner, (i) button."
+	],
+	tasks: [{
+		uid: "b528c9ad",
+		type: "checkmark",
+		title: "Some info...",
+		tags: [
+			""
+		]
+	}],
+	rewards: [{
+		uid: "769805cc",
+		type: "item",
+		item: "minecraft:torch",
+		count: 8
+	},
+	{
+		uid: "82a9a9ba",
+		type: "item",
+		item: "minecraft:potato",
+		count: 4
+	},
+	{
+		uid: "adcd7bca",
+		type: "item",
+		item: "minecraft:leather_helmet"
+	},
+	{
+		uid: "f9dbb0f1",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 12
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Engineer's Workbench",
+	icon: "immersiveengineering:wooden_device0 1 2",
+	x: 9.0d,
+	y: 8.0d,
+	text: [
+		"The GUI is fairly simple. Putting the upgradable item/tool in the center slot opens new slots to the right of it. Upgrades can be placed or removed in the new slots. When the upgradable item/tool is removed from the central slot, the newly added",
+		"upgrades stay with it.",
+		"",
+		"Putting an Engineer's Blueprint into its main slot will open six slots for components, and six slots for outputs. Simply putting the correct components in the first six slots will allow the creation of one of the needed items."
+	],
+	dependencies: [
+		"a2b2aa24"
+	],
+	tasks: [{
+		uid: "7b6e0f2c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c296b3d",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	},
+	{
+		uid: "997698e0",
+		type: "item",
+		item: {
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "components"
+			}
+		}
+	}]
+}

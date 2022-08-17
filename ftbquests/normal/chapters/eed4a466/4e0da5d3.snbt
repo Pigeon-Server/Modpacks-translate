@@ -1,0 +1,28 @@
+{
+	x: -5.0d,
+	y: 6.5d,
+	text: [
+		"Plant fiber is a new drop when breaking grass with the knife. You'll need plant fiber to craft plant string used in crafting both the Crude Hatchet, Crude Saw and bandages."
+	],
+	dependencies: [
+		"df7c3422"
+	],
+	tasks: [{
+		uid: "041abc38",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:grass_fiber"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "bbc11d1e",
+		type: "item",
+		item: "tinkersurvival:grass_string"
+	},
+	{
+		uid: "ac1c6a6c",
+		type: "item",
+		item: "tinkersurvival:bandage"
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 6.0d,
+	y: 11.0d,
+	text: [
+		"It’s pretty much the Crafting Table for this mod’s items and specifically is used to create rail tracks out of various materials, as well as pressing out iron and steel plates for use in other structures.",
+		"",
+		"It also accepts piped-in materials as well as materials in adjacent Chests"
+	],
+	dependencies: [
+		"5faf49a3"
+	],
+	tasks: [{
+		uid: "cf7b5823",
+		type: "item",
+		items: [{
+			item: "railcraft:equipment"
+		}]
+	}],
+	rewards: [{
+		uid: "6acc1f07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "deco_crate"
+			}
+		}
+	},
+	{
+		uid: "cd3c286c",
+		type: "item",
+		item: "railcraft:dust 1 2",
+		count: 8
+	}]
+}

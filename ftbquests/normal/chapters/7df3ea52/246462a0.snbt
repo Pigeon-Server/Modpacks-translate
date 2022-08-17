@@ -1,0 +1,25 @@
+{
+	title: "Industrial Grinder",
+	icon: "techreborn:industrial_grinder",
+	x: 7.75d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a78d0c25"
+	],
+	tasks: [{
+		uid: "c2c169a1",
+		type: "item",
+		items: [{
+			item: "techreborn:industrial_grinder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8585273d",
+		type: "item",
+		item: "jjcoin:silver_coin"
+	}]
+}

@@ -1,0 +1,86 @@
+{
+	title: "Ore crate",
+	icon: "minecraft:gold_ore",
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:gold_ore",
+		random_bonus: 3
+	},
+	{
+		item: "minecraft:iron_ore",
+		random_bonus: 3
+	},
+	{
+		item: "tconstruct:ore",
+		random_bonus: 3
+	},
+	{
+		item: "tconstruct:ore 1 1",
+		random_bonus: 3
+	},
+	{
+		item: "techreborn:ore 1 1",
+		random_bonus: 3
+	},
+	{
+		item: "techreborn:ore2 1 1",
+		random_bonus: 3
+	},
+	{
+		item: "immersiveengineering:ore 1 4",
+		random_bonus: 3
+	},
+	{
+		item: "immersiveengineering:ore 1 2",
+		random_bonus: 3
+	},
+	{
+		item: "immersiveengineering:ore 1 1",
+		random_bonus: 3
+	},
+	{
+		item: "immersiveengineering:ore",
+		random_bonus: 3
+	},
+	{
+		item: "minecraft:coal_ore",
+		random_bonus: 3
+	},
+	{
+		item: "minecraft:lapis_ore",
+		random_bonus: 3
+	},
+	{
+		item: "minecraft:diamond_ore",
+		random_bonus: 3
+	},
+	{
+		item: "minecraft:redstone_ore",
+		random_bonus: 3
+	},
+	{
+		item: "minecraft:emerald_ore",
+		random_bonus: 3
+	},
+	{
+		item: "techreborn:ore 1 2",
+		random_bonus: 3
+	},
+	{
+		item: "techreborn:ore 1 3",
+		random_bonus: 3
+	}],
+	loot_crate: {
+		string_id: "ore_crate",
+		item_name: "Ore crate",
+		color: 16777201,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

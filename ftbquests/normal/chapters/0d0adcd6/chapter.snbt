@@ -1,0 +1,10 @@
+{
+	title: "III - Industrial Age",
+	icon: "immersiveengineering:wooden_device0 1 2",
+	description: [
+		"Final goal of this age: RF energy production, multiblock factories for processing and crafting."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

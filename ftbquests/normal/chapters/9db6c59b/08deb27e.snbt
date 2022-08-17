@@ -1,0 +1,38 @@
+{
+	x: 19.5d,
+	y: -0.5d,
+	text: [
+		"By default, the Farm defaults to a Managed Arboretum on all four sides.However, you can change this behaviour if you have a Soldering Iron and some Electron Tubes.",
+		"",
+		"The Soldering Iron is a tool used for attaching Electron Tubes to Circuit Boards in order to manipulate how an Electrical Engine works or to program MultiFarms. As well as upgrading the Squeezer or Centrifuge.",
+		"",
+		"Once Electron Tubes have been attached to Circuit Boards they cannot be removed, only replaced. The Circuit Boards are automatically crafted as soon as the basic recipe requirements are met, so it's best practice to place your Electron Tubes and then",
+		"the Circuit Boards.",
+		"",
+		"The Soldering Iron can also be used to remove Circuit Boards from Electrical Engines, MultiFarms, Squeezers and Centrifuges by opening the machine's GUI and left clicking the Soldering Iron on to the circuit board slot."
+	],
+	dependencies: [
+		"2290b11e",
+		"44161319",
+		"fbaf07d0"
+	],
+	tasks: [{
+		uid: "72bd9810",
+		type: "item",
+		items: [{
+			item: "forestry:soldering_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00ba19a7",
+		type: "item",
+		item: "minecraft:redstone_block"
+	},
+	{
+		uid: "4a75071f",
+		type: "item",
+		item: "vanillafoodpantry:teadrink 1 380"
+	}]
+}

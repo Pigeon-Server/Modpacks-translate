@@ -1,0 +1,64 @@
+{
+	title: "Conveyors",
+	icon: {
+		id: "immersiveengineering:conveyor",
+		tag: {
+			conveyorType: "immersiveengineering:conveyor"
+		}
+	},
+	x: 3.0d,
+	y: 8.0d,
+	text: [
+		"It is used to move items and entities.",
+		"",
+		"Placing a Conveyor Belt will make it point in the direction the player faces. Right-clicking it with the Engineer's Hammer will adjust the direction in a clockwise direction. Shift right-clicking will make the Conveyor Belt run up instead of",
+		"horizontal.",
+		"",
+		"Throwing an item (or items) onto the Conveyor Belt will make it move it to the next Conveyor Belt. If no Conveyor Belt is available, the item/items will be thrown on the ground, or, if the belt ends at an inventory, the item/items will be",
+		" automatically inserted into that inventory.",
+		"",
+		"If powered by Redstone, the Conveyor Belt will freeze and not transport any items or entities. This functionality can be disabled by shapelessly crafting a Conveyor Belt.",
+		"",
+		"Conveyor Belts can be dyed. Right-clicking it with a dye will dye it. The color of the Conveyor Belt is purely decorative."
+	],
+	dependencies: [
+		"927291b4"
+	],
+	tasks: [{
+		uid: "89b4e038",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:dropper"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7db7cb7c",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e7cd939",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "food_crate"
+			}
+		}
+	},
+	{
+		uid: "27a50525",
+		type: "item",
+		item: "engineersdecor:sign_exit"
+	}]
+}

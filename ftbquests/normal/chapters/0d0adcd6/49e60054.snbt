@@ -1,0 +1,93 @@
+{
+	title: "Excavator",
+	icon: "immersiveengineering:metal_multiblock 1 12",
+	x: 4.5d,
+	y: 9.0d,
+	text: [
+		"The Excavator is a 8x3x7 multi-block. It is used to extract Mineral Deposits from chunks.",
+		"",
+		"The Excavator does not have a GUI and requires 4,096 Redstone Flux per tick (RF/t) to operate. In Immersive Engineering, the only way to generate this much RF is through a Diesel Generator. Energy should be introduced through at least one of the",
+		"three black power-plugs on the backside of the Excavator. Once it receives the needed energy, the machine's wheel will begin to spin and mine.",
+		"",
+		"The multi-block's processes can be halted via Redstone through the \"control panel\", the block on the left-middle spot of the right side. Mined items will fall out the center spot of the right side.",
+		"",
+		"The Excavator may break a few block under it when it starts up, but once it has some space will not break anything else. All blocks are broken as if they were mined with Silk Touch.",
+		"",
+		"A fully powered Excavator can mine up to one Ore per every 3 seconds. If ores are being sent directly into a Crusher, it may be necessary to build two Crushers, as only one will not be able to keep up with the full speed of an Excavator. Over time",
+		"this yield rate will lower, but the full extraction process can last for 144 (Minecraft) days. This equals 5,760 ore blocks per deposit.",
+		"",
+		"In order for the excavator to work, the bucket wheel needs to be completely in the chunk where the mineral deposit is located."
+	],
+	dependencies: [
+		"8cb522e7"
+	],
+	tasks: [{
+		uid: "37fdfa3f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 6 1"
+		}],
+		count: 6L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c302589e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 15 8"
+		}],
+		count: 15L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "40be46ea",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1d8ae57f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 9 4"
+		}],
+		count: 9L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "97d05aee",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 5 5"
+		}],
+		count: 5L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e5aa9df9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 3 7"
+		}],
+		count: 3L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aca31f32",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:ExcavatorDemo",
+				flip: 1b
+			}
+		}
+	},
+	{
+		uid: "d84fc478",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

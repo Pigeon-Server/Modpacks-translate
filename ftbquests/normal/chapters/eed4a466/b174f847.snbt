@@ -1,0 +1,37 @@
+{
+	title: "Lunch bag",
+	icon: {
+		id: "spiceoflife:lunchbag",
+		tag: {
+			UUID: "24756989-0997-4644-add8-58066eb66b30",
+			Inventory: {},
+			Open: 0b
+		}
+	},
+	x: 1.0d,
+	y: 12.5d,
+	text: [
+		"The lunch bag has 3 slots and the lunch box has 6, they are only able to hold food.",
+		"",
+		"If you right click them on an inventory, it will automatically fill them with a variety of foods from that inventory (chosen somewhat intelligently based on % diminished, etc), and if you 'eat' a lunch box/lunch bag, it will intelligently choose the ",
+		"best food to eat from it and eat it."
+	],
+	dependencies: [
+		"df340a71"
+	],
+	tasks: [{
+		uid: "08eb2cfe",
+		type: "item",
+		items: [{
+			item: "spiceoflife:lunchbag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1e816ec1",
+		type: "item",
+		item: "minecraft:egg",
+		count: 16
+	}]
+}

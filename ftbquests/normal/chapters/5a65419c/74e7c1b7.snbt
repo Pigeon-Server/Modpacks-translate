@@ -1,0 +1,22 @@
+{
+	title: "Decorate",
+	icon: "quark:soul_sandstone",
+	x: 9.75d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "df1dc707",
+		type: "item",
+		items: [{
+			item: "quark:soul_sandstone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ecbb073",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

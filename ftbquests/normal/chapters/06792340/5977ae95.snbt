@@ -1,0 +1,23 @@
+{
+	title: "Kill Wither Skeleton",
+	icon: "minecraft:skull 1 1",
+	x: -1.0d,
+	y: 8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e8ea6307"
+	],
+	tasks: [{
+		uid: "b38be029",
+		type: "kill",
+		entity: "minecraft:wither_skeleton",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8a3a5782",
+		type: "item",
+		item: "minecraft:skull 1 1"
+	}]
+}

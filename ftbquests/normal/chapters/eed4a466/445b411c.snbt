@@ -1,0 +1,40 @@
+{
+	x: -7.0d,
+	y: 6.5d,
+	text: [
+		"You may notice right away some small piles of rocks lying randomly on the ground throughout the world. Break these and gather, they are a valuable resource. And needed for crafting tools.",
+		"",
+		"Leaves will drop sticks. The drop rate is not great, but it will allow you to get sticks. Use a knife if you want to increase drops.",
+		"",
+		"Flint is essential for creating your first knife, the Crude Knife. You'll need to find gravel and either craft into flint, or break it until you get some."
+	],
+	dependencies: [
+		"86e947bf"
+	],
+	tasks: [{
+		uid: "c35328b7",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	},
+	{
+		uid: "ae222060",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:flint_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "73f6e364",
+		type: "item",
+		item: "minecraft:beetroot",
+		count: 4
+	},
+	{
+		uid: "b4d191bb",
+		type: "item",
+		item: "minecraft:gravel",
+		count: 8
+	}]
+}

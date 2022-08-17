@@ -1,0 +1,22 @@
+{
+	title: "Decorate",
+	icon: "quark:quilted_wool 1 7",
+	x: 3.25d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "59f38873",
+		type: "item",
+		items: [{
+			item: "quark:quilted_wool 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a71a04a",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

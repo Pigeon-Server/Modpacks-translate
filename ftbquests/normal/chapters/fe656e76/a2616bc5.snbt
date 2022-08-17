@@ -1,0 +1,28 @@
+{
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		"Engine modules",
+		"",
+		"Engine modules make the modular boat go in a straight line. They need to be unlocked (top right button in their menu) once installed to work. The speed can be slightly adjusted in the menu.",
+		"",
+		"Furnace engine (Engine - Furnace block): engine that runs on fuel (any fuel accepted by the vanilla furnace + torches & magma blocks)",
+		"",
+		"Engine modules can be blocked by using redstone signals (with Waterborne Redstone Conductors for instance)."
+	],
+	dependencies: [
+		"400d8011"
+	],
+	tasks: [{
+		uid: "243cae59",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "89a1b5a0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

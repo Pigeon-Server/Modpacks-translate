@@ -1,0 +1,64 @@
+{
+	title: "Steam locomotive",
+	icon: {
+		id: "railcraft:locomotive_steam_solid",
+		tag: {
+			model: "railcraft:default"
+		}
+	},
+	x: 11.0d,
+	y: 12.0d,
+	text: [
+		"Steam Locomotives have a few defining features, one of the most interesting and dangerous is their ability to “clean the tracks”. No longer will you have to worry about those wandering pigs (or players) getting in the way of your carts.",
+		"A painful lesson perhaps (for the pig), but such is progress!",
+		"",
+		"The Steam Locomotive has three modes: Running, Idle, and Shutdown. Shutdown mode is essentially turning off the locomotive. Idle will keep the fuel being consumed to keep the internal boiler hot, but will not move.",
+		"This mode can be useful for short stops, and refueling it with Item Loaders. The Running mode is the basic \"on\" mode. This mode will allow the locomotive to run as normal, consuming as much fuel as needed.",
+		"",
+		"There are 4 basic inventory slots, which are used to carry fuel. The main slot is what the locomotive will use to actually create the steam, the other three slots are just a buffer.",
+		"Next to that is a water tank, which can hold 6000mB at a time. It can be given water by using a water container on it, or by putting it into the GUI directly. The steam tank can hold 16,000mB at a time.",
+		"A locomotive will be running at maximum efficiency when its boiler is fully warmed up at 500ºC.",
+		"",
+		"Multiple locomotives can be used in a single train of linked carts for adding more power and speed. Locomotives can be quickly turned around around by using a Crowbar on it. ",
+		"For switching purposes, the locomotive can also be painted. This will use a secondary color and a primary color."
+	],
+	dependencies: [
+		"dea9f6e7"
+	],
+	tasks: [{
+		uid: "198cf944",
+		type: "item",
+		items: [{
+			id: "railcraft:locomotive_steam_solid",
+			tag: {
+				model: "railcraft:default"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a0a6578",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:bless"
+			}
+		}
+	},
+	{
+		uid: "c3b49451",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "0f24e999",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

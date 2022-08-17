@@ -1,0 +1,10 @@
+{
+	title: "II - Mechanical Age",
+	icon: "betterwithmods:axle_generator",
+	description: [
+		"Final goal of this age: Better tools, Iron Smelting, Steel Production"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

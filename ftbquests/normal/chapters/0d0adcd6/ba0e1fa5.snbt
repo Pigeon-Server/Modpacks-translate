@@ -1,0 +1,47 @@
+{
+	title: "Cloche",
+	icon: "immersiveengineering:metal_device1 1 13",
+	x: 9.5d,
+	y: 9.0d,
+	text: [
+		"It is used to grow crops placed in it.",
+		"",
+		"Right-clicking it will open its GUI (Graphical User Interface). In the GUI, the top of the central two slots is where a seed can be placed, and below that the block that the seed grows on can be placed (usually Dirt)",
+		"",
+		"In order to grow, Water and Redstone Flux (RF) are required; Water can be input through the lower front, back, or bottom ports, and RF can be input through the top, or through the lower left and right sides (anywhere with an orange dot, except",
+		"through the front center block). Water, despite being strictly required, acts as a small Fertilizer boost when refilled by your fluid input systems. This boost dies down until the next time it receives water.",
+		"",
+		"When it has all its requirements, it will grow the crop, generating a product and its seeds. Items can be output through the front center side with the orange dot on it.",
+		"",
+		"Various Fertilizers can be added to increase the growth modifier (production speed), including Bone Meal. The growth modifier is listed on the left side of the GUI, along with the amount of Fertilizer. It can be added through the lower front, back",
+		"or bottom ports. Using Fertilizer does not increase energy consumption.",
+		"",
+		"The Garden Cloche can be disabled via a Redstone signal."
+	],
+	dependencies: [
+		"5ab06227"
+	],
+	tasks: [{
+		uid: "f649ec6d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f92c9fe3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "ea61b7f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "organic_crate"
+			}
+		}
+	}]
+}

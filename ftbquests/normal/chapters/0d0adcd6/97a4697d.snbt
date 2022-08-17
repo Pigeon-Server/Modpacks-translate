@@ -1,0 +1,109 @@
+{
+	title: "Squeezer",
+	icon: "immersiveengineering:metal_multiblock 1 7",
+	x: 10.5d,
+	y: 7.0d,
+	text: [
+		"The Industrial Squeezer is a 3x3x3 multiblock added by Immersive Engineering. It is used to make Plant Oil or HOP Graphite Dust.",
+		"",
+		"Putting a seed in one of the left-hand slots will start the process. 800 Redstone Flux (RF) is consumed per use. After about a second, the seed will be converted to Plant Oil."
+	],
+	dependencies: [
+		"a2b2aa24"
+	],
+	tasks: [{
+		uid: "3387b3f0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 6 1"
+		}],
+		count: 6L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "969eaff5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 2 6"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "916e9a97",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82b2ede1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 2 4"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "902c3fe7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 4 1"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e768989",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e6462071",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 3"
+		}],
+		count: 3L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "63063859",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "plantoil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0584cf20",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:Squeezer"
+			}
+		}
+	},
+	{
+		uid: "8c5ab025",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 64
+	},
+	{
+		uid: "9c25bbfa",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

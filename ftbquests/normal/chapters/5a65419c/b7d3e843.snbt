@@ -1,0 +1,22 @@
+{
+	title: "Decorate",
+	icon: "openblocks:builder_guide",
+	x: 4.75d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c413476c",
+		type: "item",
+		items: [{
+			item: "openblocks:builder_guide"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52c72e3d",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

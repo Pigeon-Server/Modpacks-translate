@@ -1,0 +1,10 @@
+{
+	title: "I - Stone Age",
+	icon: "tinkersurvival:crude_hatchet",
+	description: [
+		"Final goal of this age: Basic food production, shelter, charcoal production."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

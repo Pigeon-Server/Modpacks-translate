@@ -1,0 +1,103 @@
+{
+	title: "Food crate",
+	loot_size: 3,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:cake",
+		random_bonus: 3
+	},
+	{
+		item: "minecraft:cooked_chicken",
+		count: 16
+	},
+	{
+		item: "minecraft:cooked_rabbit",
+		count: 16
+	},
+	{
+		item: "betterwithmods:beef_dinner",
+		count: 6
+	},
+	{
+		item: "minecraft:cooked_beef",
+		count: 16
+	},
+	{
+		item: "vanillafoodpantry:breads 1 401",
+		count: 16
+	},
+	{
+		item: "vanillafoodpantry:bread_pocket",
+		count: 16
+	},
+	{
+		item: "vanillafoodpantry:kebab 1 3",
+		count: 16
+	},
+	{
+		item: "vanillafoodpantry:nuggets 1 17",
+		count: 16
+	},
+	{
+		item: "vanillafoodpantry:fizzydrink 1 394",
+		count: 6
+	},
+	{
+		item: "vanillafoodpantry:juice 1 201",
+		count: 6
+	},
+	{
+		item: "vanillafoodpantry:sausage 1 1",
+		count: 16
+	},
+	{
+		item: "vanillafoodpantry:teadrink 1 202",
+		count: 12
+	},
+	{
+		item: {
+			id: "vanillafoodpantry:tatoes",
+			tag: {
+				_Hord_Instructions: {
+					FoodPortion: 6,
+					FoodTotal: 19,
+					XFood: 1b
+				}
+			},
+			Damage: 12s
+		},
+		count: 16
+	},
+	{
+		item: "minecraft:apple",
+		count: 64
+	},
+	{
+		item: "minecraft:golden_apple",
+		count: 6
+	},
+	{
+		item: "vanillafoodpantry:muffins 1 404",
+		count: 32
+	},
+	{
+		item: "vanillafoodpantry:cheese_sandwich",
+		count: 16
+	},
+	{
+		item: "minecraft:baked_potato",
+		count: 64
+	}],
+	loot_crate: {
+		string_id: "food_crate",
+		item_name: "Food crate",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	x: 6.0d,
+	y: 6.5d,
+	text: [
+		"Controller Slave",
+		"It is used to automatically insert items into a system from another entry point, without the need to insert directly into Drawer Controller, which there can be only one existing in the system. It does not have an inventory or interface.",
+		"The Controller Slave must be connected to the drawer system within 12 blocks of the Drawer Controller, but can easily be hidden behind a wall of drawers.",
+		"",
+		"Items should be fed into the Controller Slave using a Hopper, Hopper Ducts, Transfer Pipe (Extra Utilities 2) or similar.",
+		"",
+		"Items are inserted into the drawer system as if they have been put into the Drawer Controller, so the empty drawers closest to the Drawer Controller will be used first, for items that are not already in the system.",
+		"--------------------------",
+		"Drawer Controller",
+		"The Drawer Controller is a block added by Storage Drawers. It is used to interact with a group of drawers. It has to be touching the drawer bank. The Drawer Controller can coordinate the function of all connected drawers within a 12 block radius.",
+		"",
+		"Right-clicking materials on a Drawer Controller will automatically deposit the materials in the appropriate drawer. There can be only one Drawer Controller in the system. To add more item entry points, the Controller Slave should be used instead.",
+		"",
+		""
+	],
+	dependencies: [
+		"84f4d9bc"
+	],
+	tasks: [{
+		uid: "035ac563",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	},
+	{
+		uid: "abd8d7fe",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controllerslave"
+		}]
+	}],
+	rewards: [{
+		uid: "1e9b57ef",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}
+	}]
+}

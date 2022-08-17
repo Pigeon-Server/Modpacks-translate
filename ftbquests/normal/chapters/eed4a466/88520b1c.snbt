@@ -1,0 +1,33 @@
+{
+	title: "More storage",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: 4.0d,
+	y: 6.5d,
+	text: [
+		"It can hold 32 stacks of a single item, though it can be upgraded to hold more with Storage Drawers upgrades. Shift right-clicking on it with an empty hand will open the Drawer's GUI."
+	],
+	dependencies: [
+		"d47c21d9"
+	],
+	tasks: [{
+		uid: "f86e440e",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3fcc990",
+		type: "item",
+		item: "ironchest:wood_copper_chest_upgrade"
+	}]
+}

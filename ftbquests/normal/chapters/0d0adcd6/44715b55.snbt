@@ -1,0 +1,38 @@
+{
+	title: "LV",
+	icon: "immersiveengineering:metal_device0",
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"It is used to store Redstone Flux (RF), up to 100,000.",
+		"",
+		"Each side of the block can be configured to accept or donate energy:",
+		"- No pips indicate no energy input or output",
+		"- One blue pip and one orange pip indicate energy input",
+		"- Two orange pips indicate an output. Right-clicking the capacitor with the Engineer's Hammer will change this configuration (shift-right-clicking will change the side opposite the player clicks).",
+		"",
+		"The LV Capacitor does not have a GUI. The Engineer's Voltmeter can be used to display the currently held amount. The Capacitor retains its stored energy when mined and picked up."
+	],
+	dependencies: [
+		"16126a3b"
+	],
+	tasks: [{
+		uid: "801293c7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9a200af",
+		type: "item",
+		item: "engineersdecor:sign_hotwire"
+	},
+	{
+		uid: "5c91edb1",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	}]
+}

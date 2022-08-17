@@ -1,0 +1,30 @@
+{
+	title: "Alloy Smelter",
+	icon: "techreborn:alloy_smelter",
+	x: 3.75d,
+	y: 8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3086b2a6"
+	],
+	tasks: [{
+		uid: "4f1deeef",
+		type: "item",
+		items: [{
+			item: "techreborn:alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76379f6d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	}]
+}

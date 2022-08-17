@@ -1,0 +1,41 @@
+{
+	title: "Tesla Coil",
+	icon: "immersiveengineering:metal_device1 1 8",
+	x: 10.0d,
+	y: 1.0d,
+	text: [
+		"It protects a 13x13x13 area by shocking mobs that enter the area.",
+		"",
+		"In order to protect the area, the Tesla Coil needs to consume 256 RF/t, and needs to consume 512 RF each time it shocks a mob.",
+		"",
+		"The Tesla Coil must be powered by Redstone in order to function. This can be inverted by right-clicking the Tesla Coil with an Engineer's Hammer.",
+		"",
+		"The Tesla Coil's electricity damage will cook animal's meat, although it will not create Charged Creepers and the like. It will also cause Stun.",
+		"",
+		"Shift right-clicking the Tesla Coil with an Engineer's Hammer will change the mode of the Tesla Coil. Per default, the Tesla Coil is in \"high-power\" mode, the opposite being \"low-power\" mode.",
+		"",
+		"In low-power mode, the Tesla Coil will only use half as much power with half the range. Additionally, wearing a Faraday suit within range a low-power configured Tesla Coil will prevent any damage being caused to the user,",
+		"but wearing a Faraday suit within range a high-power configured Tesla Coil will increase the damage. Beware, if you attempt to change the mode of an active Tesla Coil, you will die instantly."
+	],
+	dependencies: [
+		"f28bf87a"
+	],
+	tasks: [{
+		uid: "dfe63d7b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d57a081f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "materials_crate"
+			}
+		}
+	}]
+}

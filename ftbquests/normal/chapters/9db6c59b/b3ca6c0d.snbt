@@ -1,0 +1,37 @@
+{
+	title: "Centrifuge",
+	icon: "forestry:centrifuge",
+	x: 18.5d,
+	y: 3.5d,
+	text: [
+		"The Centrifuge is a machine that is tasked with the extraction of bee products from their honey combs.",
+		"",
+		"Centrifuge can be upgraded with Golden, Emerald, or Blazing Electron Tubes."
+	],
+	dependencies: [
+		"e70123c2"
+	],
+	tasks: [{
+		uid: "4d5850a7",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57a5299b",
+		type: "item",
+		item: "forestry:bee_combs 1 5"
+	},
+	{
+		uid: "08007c5f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "seed_crate"
+			}
+		}
+	}]
+}

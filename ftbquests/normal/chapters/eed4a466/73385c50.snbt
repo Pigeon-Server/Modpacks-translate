@@ -1,0 +1,52 @@
+{
+	title: "Fishing Simulator",
+	icon: {
+		ForgeCaps: {
+			"betterwithmods:baited_fishing_rod": {
+				bait: 0b
+			}
+		},
+		id: "minecraft:fishing_rod",
+		tag: {
+			Quality: {}
+		}
+	},
+	x: -1.0d,
+	y: 12.5d,
+	text: [
+		"Fishing Rods require being Baited with certain items to entice fish; they won’t nibble without it!",
+		"Valid baites:",
+		"- spider eye",
+		"- creeper oyster",
+		"- bat wing",
+		"- worms",
+		"- clownfish",
+		"- pufferfish"
+	],
+	dependencies: [
+		"df340a71"
+	],
+	tasks: [{
+		uid: "2d1a0022",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"betterwithmods:baited_fishing_rod": {
+					bait: 0b
+				}
+			},
+			id: "minecraft:fishing_rod",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d63f7be",
+		type: "item",
+		item: "vanillafoodpantry:kebab 1 5",
+		count: 3
+	}]
+}

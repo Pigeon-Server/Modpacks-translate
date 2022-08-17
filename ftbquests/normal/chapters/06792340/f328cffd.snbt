@@ -1,0 +1,44 @@
+{
+	title: "Advanced tinkering",
+	icon: "tconstruct:smeltery_controller",
+	x: 10.5d,
+	y: 4.0d,
+	shape: "hexagon",
+	text: [
+		"Grout can be made in Cauldron with heat source underneath. Just put clay, sand and gravel and wait a bit. Grout can then be fired in kiln to solid seared stone.",
+		"",
+		"§c§c§4"
+	],
+	dependencies: [
+		"75c3e88a"
+	],
+	tasks: [{
+		uid: "75f09a5b",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1a4477aa",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "81383be5",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b88bd85f",
+		type: "item",
+		item: "ironchest:iron_chest 1 3"
+	}]
+}

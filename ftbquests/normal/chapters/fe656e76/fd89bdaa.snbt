@@ -1,0 +1,27 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"- Chest module (Storage - Chest block): Add a chest to your boat to hold items! Can be filled and emptied using hoppers."
+	],
+	dependencies: [
+		"de61bf7d"
+	],
+	tasks: [{
+		uid: "58e6310a",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "b6081929",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "3781c0ef",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

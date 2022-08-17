@@ -1,0 +1,53 @@
+{
+	title: "Hibachi",
+	icon: "betterwithmods:hibachi",
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"The hibachi is the netherrack of the modern man. When receiving redstone current, the Element inside heats up. The heated element causes the hellfire on the top of the hibachi to ignite, creating a fire in the space above the hibachi. This flame can not be extinguished by hand as the hibachi will re-ignite instantly as long as the hibachi is powered by redstone. Terminating the redstone current and occluding the hibachi's surface with a block are the only two ways to extinguish the flame.",
+		"",
+		"While the strong force exerted by air expelled from the §5§2§1Bellows §0§fextinguishes normal fires, it is not strong enough to extinguish the fire of the hibachi. The oxygen in the expelled air from the bellows will raise the temperature of the hibachi fire, causing it to enter a state known as being stoked. Stoked hibachi fire is a requirement for Crucible operations, pottery, and rendering.",
+		"",
+		"§8- The more hibachis used, the faster items cook/render/smelt.",
+		"",
+		"§rWhen receiving mechanical power, the Bellows compresses (and will remain compressed for as long as mechanical power is applied). ",
+		"",
+		"The Bellows can stoke a Hibachi produced fire in a 3x3 square block in front of it. if it is expanded and compressed at regular intervals. This can be achieved by using a Turntable or other suitable timing circuit to cut the Mechanical Power on a periodic basis. Stoked fire is necessary for the operation of the Crucible and to turn the Cauldron into a rendering device."
+	],
+	dependencies: [
+		"826b9bb0"
+	],
+	tasks: [{
+		uid: "24dc1661",
+		type: "item",
+		items: [{
+			item: "betterwithmods:hibachi"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6077590b",
+		type: "item",
+		items: [{
+			item: "betterwithmods:bellows"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac77a1c3",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "f94c15f1",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 16
+	},
+	{
+		uid: "a513389f",
+		type: "item",
+		item: "minecraft:lever",
+		count: 9
+	}]
+}

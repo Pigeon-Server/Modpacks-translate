@@ -1,0 +1,32 @@
+{
+	title: "Bucket",
+	icon: "ceramics:clay_bucket",
+	x: 11.0d,
+	y: 10.5d,
+	text: [
+		"Can transport cold liquids with ease, but breaks after emptying a hot liquid like lava",
+		""
+	],
+	dependencies: [
+		"3e769041"
+	],
+	tasks: [{
+		uid: "e15dcb08",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_bucket"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb90e7df",
+		type: "item",
+		item: "ceramics:clay_bucket"
+	},
+	{
+		uid: "45368079",
+		type: "item",
+		item: "minecraft:slime_ball",
+		count: 6
+	}]
+}

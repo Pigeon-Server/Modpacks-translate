@@ -1,0 +1,25 @@
+{
+	title: "Security Manager",
+	icon: "refinedstorage:security_manager",
+	x: 11.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"21101d4c"
+	],
+	tasks: [{
+		uid: "39959033",
+		type: "item",
+		items: [{
+			item: "refinedstorage:security_manager"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad7a93fb",
+		type: "item",
+		item: "jjcoin:silver_coin"
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -8.0d,
+	y: 7.5d,
+	text: [
+		"The night is dark and full of terrors.",
+		"",
+		"The nights and caves are much more darker in this pack with Hardcore Darkness mod.",
+		"You need to use torches at nights and in caves.",
+		"",
+		"You can also instal Optifine and enable Dynamic Lights feature, which enables light emitting items (torch, glowstone, etc.) to illuminate everything around them when held in hand.",
+		"",
+		"If you feeling scary or this feature is not for you - you can always disable it by deleting the mod from /mods folder."
+	],
+	dependencies: [
+		"70317593"
+	],
+	tasks: [{
+		uid: "1c4b9351",
+		type: "checkmark",
+		title: "Realistic Darkness",
+		icon: "minecraft:torch"
+	}],
+	rewards: [{
+		uid: "7c3af16b",
+		type: "item",
+		item: "minecraft:torch",
+		count: 3
+	}]
+}

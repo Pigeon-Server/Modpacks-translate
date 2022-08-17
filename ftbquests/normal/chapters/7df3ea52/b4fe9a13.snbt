@@ -1,0 +1,26 @@
+{
+	title: "Conductive Iron",
+	icon: "enderio:item_alloy_ingot 1 4",
+	x: 5.25d,
+	y: 8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"28e7c353"
+	],
+	tasks: [{
+		uid: "745ad695",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2360c43b",
+		type: "item",
+		item: "minecraft:experience_bottle",
+		count: 5
+	}]
+}

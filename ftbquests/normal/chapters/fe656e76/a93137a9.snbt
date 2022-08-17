@@ -1,0 +1,34 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	text: [
+		"Fishing module (Misc. - any Fishing Rod): Add a fishing rod to make the boat fish automatically! Needs a Storage module installed to work."
+	],
+	dependencies: [
+		"fd89bdaa"
+	],
+	tasks: [{
+		uid: "5cb105dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"betterwithmods:baited_fishing_rod": {
+					bait: 0b
+				}
+			},
+			id: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "50541a39",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "ea3cbfd6",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

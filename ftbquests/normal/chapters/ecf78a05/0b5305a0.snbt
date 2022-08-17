@@ -1,0 +1,25 @@
+{
+	title: "Upgrades",
+	icon: "refinedstorage:upgrade",
+	x: 8.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b0196ad3"
+	],
+	tasks: [{
+		uid: "9799eb24",
+		type: "item",
+		items: [{
+			item: "refinedstorage:upgrade"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6cc7c7d",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	}]
+}

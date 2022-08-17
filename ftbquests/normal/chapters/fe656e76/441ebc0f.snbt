@@ -1,0 +1,52 @@
+{
+	x: 8.0d,
+	y: 13.0d,
+	text: [
+		"When building a Steam Boiler, the first layer put down must be the Firebox. We presently offer two types of Fireboxes. Solid Fueled, which burns normal furnace fuels such as Charcoal or Coal Coke, and Liquid Fueled, which uses liquid fuels such as Cr",
+		"",
+		"There are three base sizes of Steam Boiler: the small 1×1 Boiler, the workhorse 2×2 Boiler, and the excessive 3×3 Boiler.",
+		"",
+		"Once you've laid down the Firebox, you must build a Boiler Tank above it. Boiler Tanks come in two varieties: Low Pressure and High Pressure. The difference being that High Pressure Boiler Tanks produce twice the steam, but the Low Pressure Boiler",
+		"Tanks are generally more efficient.",
+		"",
+		"Once you've built your Steam Boiler, you will need to provide it water and fuel. A word of warning, you must supply a constant steady stream of water to the Firebox (not the Tanks) or you run the risk of a massive Boiler explosion. Introducing water",
+		" to a hot and dry Boiler is exceptionally dangerous. That said, Boilers are pretty safe so long as the water supply is constant.",
+		"",
+		"When first heating up a boiler, they are very inefficient and will use up to 8x more fuel than when at max heat. It is generally recommended that you leave your boiler running all the time rather than shutting it down when not in use. Especially the ",
+		"larger Boilers since the heat up time is dependent on size."
+	],
+	dependencies: [
+		"d165ef39"
+	],
+	tasks: [{
+		uid: "867baf14",
+		type: "item",
+		items: [{
+			item: "railcraft:boiler_firebox_solid"
+		}]
+	},
+	{
+		uid: "60f2e30d",
+		type: "item",
+		items: [{
+			item: "railcraft:boiler_tank_pressure_low"
+		}]
+	}],
+	rewards: [{
+		uid: "adb9f247",
+		type: "item",
+		item: "railcraft:brick_pearlized 1 2",
+		count: 64
+	},
+	{
+		uid: "4e1094ed",
+		type: "item",
+		item: "railcraft:generic 1 6"
+	},
+	{
+		uid: "9a80934f",
+		type: "item",
+		item: "railcraft:dust 1 2",
+		count: 8
+	}]
+}

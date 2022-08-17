@@ -1,0 +1,79 @@
+{
+	title: "Is that it?",
+	icon: "minecraft:iron_nugget",
+	x: 6.0d,
+	y: 9.5d,
+	text: [
+		"You are too primitive right now to receive pure ingots from smelting solid ore. Maybe you can combine nuggets in melter in whole ingot?"
+	],
+	dependencies: [
+		"cbaabedd"
+	],
+	tasks: [{
+		uid: "01acf93a",
+		type: "item",
+		title: "Any nuggetIron",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "nuggetIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a8ea052",
+		type: "item",
+		title: "Any nuggetGold",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "nuggetGold",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "1f62949e",
+		type: "item",
+		title: "Any nuggetCopper",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "nuggetCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "8a7f0ad6",
+		type: "item",
+		title: "Any nuggetTin",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "nuggetTin",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "7e8baabc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	}]
+}

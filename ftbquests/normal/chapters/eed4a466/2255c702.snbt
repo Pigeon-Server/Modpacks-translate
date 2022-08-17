@@ -1,0 +1,57 @@
+{
+	x: -1.0d,
+	y: 6.5d,
+	text: [
+		"The Part Builder is used to shape most non-metallic tool parts by using wooden patterns and raw materials. ",
+		"",
+		"The Stencil Table is needed for crafting all specific patterns out of Blank Pattern, which are required for crafting the castings and the tool/weapon parts produced therefrom. For crafting a specific pattern the player must place a Blank Pattern in",
+		"the left slot and select the button of the desired tool/weapon part in the GUI."
+	],
+	dependencies: [
+		"eb1360af",
+		"14a2cb0b"
+	],
+	tasks: [{
+		uid: "2cec1c0a",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "779885a2",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d51164fb",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 16
+	},
+	{
+		uid: "fe736855",
+		type: "item",
+		item: "tconstruct:book"
+	}]
+}

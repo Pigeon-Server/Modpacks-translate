@@ -1,0 +1,37 @@
+{
+	title: "JEI, item searching thing on the right side of your screen",
+	x: -9.0d,
+	y: 7.5d,
+	text: [
+		"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that item's recipe.",
+		"",
+		"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids. ",
+		"Both of these keys can be changed in the mod's config file.",
+		"",
+		"• Double-clicking the search box will visually filter any inventories, including all chests for items that match the search field's criteria. Items that do not match the current search will be grayed out. Double-clicking again will turn off the searc",
+		"",
+		"• Multiple terms can be looked for in the search field by separating them with the \"|\" character. For example: pickaxe|axe will show everything with pickaxe and/or axe in its name.",
+		"",
+		"• To select the search box without clicking on it, the player can press Ctrl + F.",
+		"",
+		"• To search by mod name use the \"@\" key before search in search box."
+	],
+	dependencies: [
+		"86e947bf"
+	],
+	tasks: [{
+		uid: "624f9c1e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f837eb33",
+		type: "item",
+		item: "minecraft:leather_chestplate"
+	},
+	{
+		uid: "62a38224",
+		type: "item",
+		item: "minecraft:carrot",
+		count: 4
+	}]
+}

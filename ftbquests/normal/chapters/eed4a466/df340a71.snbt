@@ -1,0 +1,56 @@
+{
+	title: "Some food required",
+	icon: "minecraft:wheat_seeds",
+	x: 0.0d,
+	y: 11.5d,
+	text: [
+		"This pack has slightly challenging hunger mechanics provided by Spice of Life mod - mod that encourages dietary variety through diminishing returns. Makes it so that eating the same thing over and over will give you fewer and fewer hunger restored each time. ",
+		"",
+		"So you will need to cook different food and consume it. Approximately 5 different food almost always enough(it depends)."
+	],
+	dependencies: [
+		"302bc9e5"
+	],
+	tasks: [{
+		uid: "4a0c8709",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}]
+	}],
+	rewards: [{
+		uid: "2bef04ca",
+		type: "item",
+		item: "minecraft:potato"
+	},
+	{
+		uid: "32a31cc4",
+		type: "item",
+		item: "minecraft:carrot"
+	},
+	{
+		uid: "b4c27f3d",
+		type: "item",
+		item: "minecraft:beetroot_seeds"
+	},
+	{
+		uid: "7c675316",
+		type: "item",
+		item: "minecraft:red_mushroom"
+	},
+	{
+		uid: "e722485b",
+		type: "item",
+		item: "minecraft:brown_mushroom"
+	},
+	{
+		uid: "2b0cdefc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "seed_crate"
+			}
+		}
+	}]
+}

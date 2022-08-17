@@ -1,0 +1,25 @@
+{
+	title: "Importer",
+	icon: "refinedstorage:importer",
+	x: 5.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cb4fb4bf"
+	],
+	tasks: [{
+		uid: "8601e038",
+		type: "item",
+		items: [{
+			item: "refinedstorage:importer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a1326b81",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

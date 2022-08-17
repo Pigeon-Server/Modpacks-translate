@@ -1,0 +1,36 @@
+{
+	title: "Tanned Leather",
+	icon: "betterwithmods:material 1 6",
+	x: -3.0d,
+	y: 4.0d,
+	text: [
+		"Processing normal leather inside a Mill Stone removes any residual flesh and blood that could cause the leather to decompose with time.",
+		"",
+		"This produces Scoured leather, which can be processed in a§2 §3cauldron §0§rw§§ith §2bark §0§r§t§0§0§1§0§rto produce §2§1Tanned Leather.",
+		"",
+		"§2§8§o- Scoured Leather can be cut into pieces before being tanned. It takes both pieces for the tanning process to occur in this case, and the end product is cut tanned leather.",
+		"",
+		"§rTanned Leather is resistant to decay and is far more durable than untreated leather. As such, it is much better suited for use in the making of tools or mechanical applications where wear and tear can quickly become a factor."
+	],
+	dependencies: [
+		"0fd064fb"
+	],
+	tasks: [{
+		uid: "51d22278",
+		type: "item",
+		items: [{
+			item: "betterwithmods:material 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3b436f4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "potion_crate"
+			}
+		}
+	}]
+}

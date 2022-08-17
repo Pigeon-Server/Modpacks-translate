@@ -1,0 +1,38 @@
+{
+	x: 5.0d,
+	y: 14.0d,
+	text: [
+		"This block will fill any storage cart beneath it with the items from an adjacent block with an inventory (Chest, Furnaces, Unloaders, etc…). Buildcraft pipes can also supply items directly to the Loader's own internal inventory slot.",
+		"When the cart is full the Loader will send out a redstone signal. The recommended setup is a Boarding Track placed beneath the Loader.",
+		"",
+		"This track will be automatically powered by the Loader. If you right-click on the Loader it will open a GUI"
+	],
+	dependencies: [
+		"b516f7bd"
+	],
+	tasks: [{
+		uid: "314fa5be",
+		type: "item",
+		items: [{
+			item: "railcraft:manipulator"
+		}]
+	},
+	{
+		uid: "cab15de0",
+		type: "item",
+		items: [{
+			item: "railcraft:manipulator 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "52e26cae",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "6b7087fc",
+		type: "item",
+		item: "railcraft:dust 1 1",
+		count: 8
+	}]
+}

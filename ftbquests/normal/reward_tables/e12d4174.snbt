@@ -1,0 +1,167 @@
+{
+	title: "Seed crate I",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "harvestcraft:gingerseeditem"
+	},
+	{
+		item: "harvestcraft:spiceleafseeditem"
+	},
+	{
+		item: "harvestcraft:teaseeditem"
+	},
+	{
+		item: "harvestcraft:coffeeseeditem"
+	},
+	{
+		item: "harvestcraft:mustardseeditem"
+	},
+	{
+		item: "harvestcraft:broccoliseeditem"
+	},
+	{
+		item: "harvestcraft:blackberryseeditem"
+	},
+	{
+		item: "harvestcraft:blueberryseeditem"
+	},
+	{
+		item: "harvestcraft:candleberryseeditem"
+	},
+	{
+		item: "harvestcraft:raspberryseeditem"
+	},
+	{
+		item: "harvestcraft:strawberryseeditem"
+	},
+	{
+		item: "harvestcraft:cactusfruitseeditem"
+	},
+	{
+		item: "harvestcraft:asparagusseeditem"
+	},
+	{
+		item: "harvestcraft:barleyseeditem"
+	},
+	{
+		item: "harvestcraft:oatsseeditem"
+	},
+	{
+		item: "harvestcraft:ryeseeditem"
+	},
+	{
+		item: "harvestcraft:cornseeditem"
+	},
+	{
+		item: "harvestcraft:bambooshootseeditem"
+	},
+	{
+		item: "harvestcraft:cantaloupeseeditem"
+	},
+	{
+		item: "harvestcraft:cucumberseeditem"
+	},
+	{
+		item: "harvestcraft:wintersquashseeditem"
+	},
+	{
+		item: "harvestcraft:zucchiniseeditem"
+	},
+	{
+		item: "harvestcraft:beetseeditem"
+	},
+	{
+		item: "harvestcraft:onionseeditem"
+	},
+	{
+		item: "harvestcraft:garlicseeditem"
+	},
+	{
+		item: "harvestcraft:celeryseeditem"
+	},
+	{
+		item: "harvestcraft:rhubarbseeditem"
+	},
+	{
+		item: "harvestcraft:turnipseeditem"
+	},
+	{
+		item: "harvestcraft:sweetpotatoseeditem"
+	},
+	{
+		item: "harvestcraft:rutabagaseeditem"
+	},
+	{
+		item: "harvestcraft:radishseeditem"
+	},
+	{
+		item: "harvestcraft:peanutseeditem"
+	},
+	{
+		item: "harvestcraft:parsnipseeditem"
+	},
+	{
+		item: "harvestcraft:cauliflowerseeditem"
+	},
+	{
+		item: "harvestcraft:leekseeditem"
+	},
+	{
+		item: "harvestcraft:lettuceseeditem"
+	},
+	{
+		item: "harvestcraft:scallionseeditem"
+	},
+	{
+		item: "harvestcraft:artichokeseeditem"
+	},
+	{
+		item: "harvestcraft:brusselsproutseeditem"
+	},
+	{
+		item: "harvestcraft:cabbageseeditem"
+	},
+	{
+		item: "harvestcraft:spinachseeditem"
+	},
+	{
+		item: "harvestcraft:beanseeditem"
+	},
+	{
+		item: "harvestcraft:soybeanseeditem"
+	},
+	{
+		item: "harvestcraft:bellpepperseeditem"
+	},
+	{
+		item: "harvestcraft:chilipepperseeditem"
+	},
+	{
+		item: "harvestcraft:eggplantseeditem"
+	},
+	{
+		item: "harvestcraft:okraseeditem"
+	},
+	{
+		item: "harvestcraft:peasseeditem"
+	},
+	{
+		item: "harvestcraft:tomatoseeditem"
+	},
+	{
+		item: "harvestcraft:cottonseeditem"
+	}],
+	loot_crate: {
+		string_id: "seed_crate",
+		item_name: "Seed crate I",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

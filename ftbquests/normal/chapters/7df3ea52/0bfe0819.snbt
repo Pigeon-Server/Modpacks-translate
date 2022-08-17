@@ -1,0 +1,26 @@
+{
+	title: "Scrapbox-inator",
+	icon: "techreborn:scrapboxinator",
+	x: 11.75d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8dcb82a2"
+	],
+	tasks: [{
+		uid: "8812faaf",
+		type: "item",
+		items: [{
+			item: "techreborn:scrapboxinator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c245b265",
+		type: "item",
+		item: "minecraft:experience_bottle",
+		count: 5
+	}]
+}

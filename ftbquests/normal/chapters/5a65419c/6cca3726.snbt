@@ -1,0 +1,22 @@
+{
+	title: "Decorate",
+	icon: "quark:sandstone_new",
+	x: 1.75d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ce00e35c",
+		type: "item",
+		items: [{
+			item: "quark:sandstone_new"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e91ed929",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

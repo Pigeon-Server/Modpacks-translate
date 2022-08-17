@@ -1,0 +1,81 @@
+{
+	title: "Elevator",
+	icon: "betterwithmods:platform",
+	x: 7.0d,
+	y: 9.0d,
+	text: [
+		"The Pulley represents a means of converting mechanical power into vertical motion. It has an inventory into which up to 256 (4 stacks) of Rope may be placed and, if left unpowered, the Pulley will slowly dispense this rope downward until it either exhausts its inventory or the rope lands on something solid. Conversely, when a Pulley is powered mechanically it begins to retract the rope back into its inventory thereby raising any upward-facing Anchor to which the rope is attached. This, in turn, raises any appropriately connected Platforms.",
+		"",
+		"Pulley allows you to create a simple elevator.  ",
+		"",
+		"Start by placing your Pulley and hooking it up to mechanical power.  ",
+		"",
+		"Then place a Platform two blocks below it in a 3x3 pattern.  ",
+		"",
+		"Finally, attach an Anchor to connect the two.",
+		"",
+		"Now when you add Rope to the pulley, it will be able to drop the platform by that amount.  Toggle mechanical power to raise and lower the platform."
+	],
+	dependencies: [
+		"2bb7a1dd"
+	],
+	tasks: [{
+		uid: "a5a1c27d",
+		type: "item",
+		items: [{
+			item: "betterwithmods:platform 9"
+		}],
+		count: 9L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1be227e2",
+		type: "item",
+		items: [{
+			item: "betterwithmods:single_machine 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dfae739e",
+		type: "item",
+		items: [{
+			item: "betterwithmods:anchor"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b8bd4102",
+		type: "item",
+		items: [{
+			item: "betterwithmods:wooden_gearbox"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d2f8e865",
+		type: "item",
+		items: [{
+			item: "betterwithmods:wooden_axle"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dec1b326",
+		type: "item",
+		items: [{
+			item: "betterwithmods:rope"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "74c757c6",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:strong_bless"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 9.0d,
+	y: 4.0d,
+	text: [
+		"Helm module (Navigation - Helm item)",
+		"",
+		"This is perhaps the most important module of the mod. Provide a filled map (can be zoomed out) and plan an itinerary for the boat to follow by itself!",
+		"",
+		"Because you cannot save directly the path to a Map, the path is lost when removing the map from the module; that's why Moar Boats provides two other items to create paths:",
+		"",
+		"- Map with Path: can be crafted from a normal Map or converted from a Map inside the Helm module menu. Simply a copy of the normal Map with the path registered inside.",
+		"- Golden tickets: all copies of a single ticket are linked: change the path on one to update all of them (even the ones already in use in boats). Useful to control a fleet.",
+		"",
+		"Sometimes, drawing the path on the map is not precise/effecient enough. To solve this problem, Moar Boats adds a new block: the Mapping Table."
+	],
+	dependencies: [
+		"de61bf7d",
+		"a2616bc5"
+	],
+	tasks: [{
+		uid: "877a1af3",
+		type: "item",
+		items: [{
+			item: "moarboats:helm"
+		}]
+	}],
+	rewards: [{
+		uid: "e6d79c42",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

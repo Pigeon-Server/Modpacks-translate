@@ -1,0 +1,25 @@
+{
+	title: "Need more food",
+	icon: "vanillafoodpantry:creamsoup 1 993",
+	x: 9.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a75552e9"
+	],
+	tasks: [{
+		uid: "2a178e9b",
+		type: "item",
+		items: [{
+			item: "vanillafoodpantry:creamsoup 1 993"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "704934f5",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

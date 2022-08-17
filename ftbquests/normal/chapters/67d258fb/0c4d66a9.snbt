@@ -1,0 +1,20 @@
+{
+	title: "Endermans!",
+	icon: "minecraft:ender_pearl",
+	x: 10.25d,
+	y: 3.75d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "15017f7c",
+		type: "kill",
+		entity: "minecraft:enderman",
+		value: 16L
+	}],
+	rewards: [{
+		uid: "9afe036e",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

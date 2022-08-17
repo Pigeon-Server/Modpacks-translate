@@ -1,0 +1,341 @@
+{
+	title: "Fluid crate",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "copper",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "bronze",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "gold",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "iron",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "for.honey",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "invar",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "iridium",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "ardite",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "creosote",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "oil",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "gasoline",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "manyullyn",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "aluminum",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "advancedalloy",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "cobalt",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "seed.oil",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "biodiesel",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "lubricant",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "alubrass",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "bio.ethanol",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "platinum",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "juice",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "steam",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "diesel",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "emerald",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	}],
+	loot_crate: {
+		string_id: "fluid_crate",
+		item_name: "Fluid crate",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

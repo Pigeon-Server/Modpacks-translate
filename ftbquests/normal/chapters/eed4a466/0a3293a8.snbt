@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: 8.5d,
+	text: [
+		"Tool leveling:",
+		"",
+		"You get xp for doing whatever the tool was intended for, so breaking blocks with pickaxes, killing things with swords, etc., gives your Tools XP, allowing them to level up. On levelup an extra modifier is rewarded.",
+		"List of all available modifiers you can check in the book."
+	],
+	dependencies: [
+		"b77c9658"
+	],
+	tasks: [{
+		uid: "95aac0a4",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e3000527",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

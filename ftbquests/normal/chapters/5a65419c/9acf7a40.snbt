@@ -1,0 +1,22 @@
+{
+	title: "Decorate",
+	icon: "quark:polished_stone",
+	x: 1.75d,
+	y: 4.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "597c7085",
+		type: "item",
+		items: [{
+			item: "quark:polished_stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bedb51a6",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

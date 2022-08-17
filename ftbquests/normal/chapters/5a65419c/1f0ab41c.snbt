@@ -1,0 +1,17 @@
+{
+	title: "Decorate",
+	icon: "quark:carved_wood",
+	x: 1.75d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "db1d74f5",
+		type: "item",
+		items: [{
+			item: "quark:carved_wood"
+		}],
+		ignore_nbt: 1b
+	}]
+}

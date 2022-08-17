@@ -1,0 +1,36 @@
+{
+	x: 11.0d,
+	y: 11.5d,
+	text: [
+		" It must be arranged in a 2x2x2 solid cube to work. After it is arranged in that pattern, the player must right-click one of the blocks with an Engineer's Hammer, then the multi-block is complete.",
+		"",
+		"The Alloy Kiln is fairly simple to use; putting solid fuels in the bottom slot in the GUI will power the Alloy Kiln. The two other left slots are where each Ingot or Grit can be added to form a new ingot. After about 8 seconds, two new ingots will ",
+		"be formed."
+	],
+	dependencies: [
+		"c31ef3c0"
+	],
+	tasks: [{
+		uid: "abda34dc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1ae92d8c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tool_crate"
+			}
+		}
+	},
+	{
+		uid: "13c127e0",
+		type: "item",
+		item: "immersiveengineering:tool"
+	}]
+}

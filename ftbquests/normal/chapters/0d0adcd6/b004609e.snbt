@@ -1,0 +1,61 @@
+{
+	title: "Mining Drill",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 5,
+				Items: []
+			}
+		},
+		id: "immersiveengineering:drill",
+		tag: {
+			head: {
+				id: "minecraft:air",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	x: 12.0d,
+	y: 5.0d,
+	text: [
+		"The Mining Drill is a tool. It is powered by Biodiesel, and can be filled directly from a Refinery.",
+		"",
+		"The Mining Drill (when crafted) does not come with a Drill Head. It needs either an Iron Drill Head or a Steel Drill Head installed. To install a Drill Head, the Mining Drill should be placed in an Engineer's Workbench, and the corresponding Drill",
+		"Head should be placed in the top of the four \"upgrade slots\" (shift-clicking should work though, too).",
+		"",
+		"The Mining Drill can be used without a Drill Head, however, it is slower and less efficient than a Wooden Pickaxe, and not very well worth it. The Drill Head will determine the mining area, level, speed, attack damage and durability of the Mining",
+		"Drill. Steel is better than Iron, but both are much better than using no Drill Head whatsoever.",
+		"",
+		"The Mining Drill has a special hitting animation. Although it makes each hit look slower, it is nothing but visual.",
+		"",
+		"The Mining Drill does not work underwater- for this, an Internal Oxidizer Tank upgrade is needed."
+	],
+	dependencies: [
+		"76a52be5"
+	],
+	tasks: [{
+		uid: "9b17dec4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 5,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:drill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "de5e3c17",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	},
+	{
+		uid: "fb4fdfd1",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

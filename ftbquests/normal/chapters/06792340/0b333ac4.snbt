@@ -1,0 +1,29 @@
+{
+	title: "Filtered Hopper",
+	icon: "betterwithmods:single_machine 1 2",
+	x: 2.5d,
+	y: 5.5d,
+	text: [
+		"While it appears deceptively simple (it's basically a box with a hole in it), the hopper allows the construction of many advanced mechanisms. Items that fall into the top of the hopper are added to its inventory.",
+		"",
+		"The hopper also contains an extra inventory slot in which you may place various items that act as a filter so you can determine what items can enter the hopper inventory. ",
+		"",
+		"§8§c§4Beware§8 §8§0§8when filtering Ground Netherrack! Dropping more than 7 units of ground netherrack into the top of an unpowered Hopper without replacing the soul sand will cause the hopper to break, destroying one of the gears, the wooden corner, and the wooden pressure plate. It will also spawn you a §5cuddly new friend."
+	],
+	dependencies: [
+		"346793b9"
+	],
+	tasks: [{
+		uid: "894cf05c",
+		type: "item",
+		items: [{
+			item: "betterwithmods:single_machine 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6deb151e",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Thermoelectric generator",
+	icon: "immersiveengineering:metal_device1 1 3",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"It generates Redstone Flux (RF) through the difference in temperature between blocks/liquids adjacent to it.",
+		"",
+		"The two liquids used should be opposite of each other; having one liquid be on the east of the generator and another liquid being on the north of the generator (for example) will NOT allow it to work. Having two sets of opposites will work and",
+		"increase production"
+	],
+	dependencies: [
+		"16126a3b"
+	],
+	tasks: [{
+		uid: "92ee7083",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55fda4e4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "be8e9c33",
+		type: "item",
+		item: "minecraft:water_bucket"
+	},
+	{
+		uid: "23defccd",
+		type: "item",
+		item: "minecraft:lava_bucket"
+	}]
+}

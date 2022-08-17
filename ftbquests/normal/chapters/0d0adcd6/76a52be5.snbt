@@ -1,0 +1,100 @@
+{
+	title: "Refinery",
+	icon: "immersiveengineering:metal_multiblock 1 9",
+	x: 12.0d,
+	y: 6.0d,
+	text: [
+		"The Refinery is a 3x5x3 multi-block. It is used to make Biodiesel.",
+		"",
+		"The front-bottom-center block is used to output Biodiesel. The two side-bottom-center blocks are used to input Plant Oil and Ethanol. Redstone Flux (RF) is input from the back-center block, and the multi-block's processes can be halted via Redstone",
+		"through the \"control panel\", the block with the red dot.",
+		"",
+		"Every tick, the Refinery consumes up to 8 mB of Plant Oil, 8 mB of Ethanol, and 10 Redstone Flux, while generating 16 mB of Biodiesel. It takes 3.125 seconds to make one bucket of Biodiesel. Put another way, the Refinery is able to produce two bucket",
+		"of Biodiesel every 6.25 seconds. Since a bucket of Biodiesel burns for 6.25 seconds in a Diesel Generator, a Refinery operating at full capacity is able to sustain two Diesel Generators at once."
+	],
+	dependencies: [
+		"97a4697d",
+		"7af4e0a7"
+	],
+	tasks: [{
+		uid: "d504f553",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 8 1"
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a68544dc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 5 6"
+		}],
+		count: 5L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4b8415ee",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aa274850",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 2 4"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3d1bd0cd",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 2 5"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7614fd86",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 16 9"
+		}],
+		count: 16L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c9877fb0",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "biodiesel",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e12dbdf0",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:Refinery"
+			}
+		}
+	},
+	{
+		uid: "c83009d2",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

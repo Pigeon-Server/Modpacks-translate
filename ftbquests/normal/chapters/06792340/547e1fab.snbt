@@ -1,0 +1,30 @@
+{
+	title: "Light Block",
+	icon: "betterwithmods:light",
+	x: -0.75d,
+	y: 0.25d,
+	text: [
+		"Light blocks contain a glowstone Filament in the center, which radiates brightly when it receives redstone current.",
+		" ",
+		"Light blocks produces extremely bright light when powered, which is particularly useful in the growing of plants (such as Hemp). ",
+		"",
+		"Light blocks can be powered indirectly, which means that if a neighboring block is receiving power, the light blocks will light up. This allow you to, for example, place light blocks on the ceiling, and run redstone above the ceiling to give them power, without having to do any complicated wiring."
+	],
+	dependencies: [
+		"0448f288"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "ddc16743",
+		type: "item",
+		items: [{
+			item: "betterwithmods:light"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "184c0bfa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

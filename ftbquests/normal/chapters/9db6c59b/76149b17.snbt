@@ -1,0 +1,49 @@
+{
+	title: "Farm Gearbox",
+	icon: {
+		id: "forestry:ffarm",
+		tag: {
+			FarmBlock: 0
+		},
+		Damage: 2s
+	},
+	x: 23.5d,
+	y: 0.5d,
+	text: [
+		"Farm Gearbox (Power)",
+		"",
+		"To power your Farm and have it automatically harvest crops, you will need at least one Farm Gearbox.",
+		"Farm operations can be hasted with additional Gearboxes."
+	],
+	dependencies: [
+		"d783a720"
+	],
+	tasks: [{
+		uid: "fccb8584",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18378526",
+		type: "item",
+		item: "forestry:apatite",
+		count: 5
+	},
+	{
+		uid: "3c451eab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "seed_crate"
+			}
+		}
+	}]
+}

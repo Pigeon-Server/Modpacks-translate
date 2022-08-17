@@ -1,0 +1,76 @@
+{
+	title: "Storage",
+	icon: "immersiveengineering:metal_multiblock 1 2",
+	x: 2.0d,
+	y: 8.0d,
+	text: [
+		"The Silo is a 3x3x7 multi-block, used for storing items.",
+		"The Silo is fairly simple to make. The first layer contains one Iron Sheetmetal, with a Treated Wood Fence in each diagonal. The next five layers contain a 3x3 doughnut shaped Iron Sheetmetal platform, topped by the seventh and final layer, a 3x3",
+		"solid layer of Iron Sheetmetal.",
+		"This uses 4 Treated Wood Fences and 50 Iron Sheetmetal total.",
+		"",
+		"After it is fully arranged, the player must right-click the bottom-center Iron Sheetmetal of any side of the multi-block with an Engineer's Hammer, then the multi-block is complete.",
+		"",
+		"The Sheetmetal Tank will store 41,472 items (the size of 24 Chests). They, however, all must be the same item.Items can be piped into the top block, and removed through the bottom block. Removal of items requires a Redstone signal.",
+		"--------------------",
+		"The Tank, previously called the Sheetmetal Tank, is a 3x3x5 multi-block used for storing liquids.",
+		"The first layer contains one Iron Sheetmetal, with a Treated Wood Fence in each diagonal. The next three layers contain a 3x3 doughnut shaped Iron Sheetmetal platform, topped by the fifth and final layer, a 3x3 solid layer of Iron Sheetmetal.",
+		"This uses 4 Treated Wood Fences and 34 Iron Sheetmetal total.",
+		"",
+		"After it is fully arranged, the player must right-click the Iron Sheetmetal at the bottom center of any side (not the sheetmetal on the fence layer) with an Engineer's Hammer, then the multi-block is complete.",
+		"",
+		"The Tank will store 512,000 mB (512 Buckets). Liquids can be piped into the top or bottom blocks. For liquid to be removed a redstone signal is required, additionally, a Fluid Pump (Immersive Engineering) can be used to speed up the output."
+	],
+	dependencies: [
+		"754bf4bf"
+	],
+	tasks: [{
+		uid: "db2e02ba",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 84 9"
+		}],
+		count: 84L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "65969fe3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_decoration 8"
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3eaf04dc",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:SheetmetalTank"
+			}
+		}
+	},
+	{
+		uid: "e98cb6ab",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:Silo"
+			}
+		}
+	},
+	{
+		uid: "6dffdc67",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "02cf32dc",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	}]
+}

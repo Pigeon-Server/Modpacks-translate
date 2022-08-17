@@ -1,0 +1,36 @@
+{
+	title: "Planter",
+	icon: "betterwithmods:planter",
+	x: 5.5d,
+	y: 2.0d,
+	text: [
+		"To get the Planter, you must first form the Unfired Pottery version of it by putting a clay block on a spinning Turntable. The clay block must go through four full rotations before it turns into the unfired Planter. You must then fire the unfired planter in a Kiln.",
+		"",
+		"By itself, the Planter is useless, except for decoration, but once it is filled with dirt or soul sand, the Planter can have all crops planted on it, like Hemp, Wheat, Flowers, Trees, and even Cacti as well as Nether Wart and Blood Wood Trees.",
+		"",
+		" The Planter allows the planting of crops without having to worry about water or trampling on them, allowing for more efficient farms. The Planter also works in the Nether, making Nether farms a reality as it allows you to plant things in the Nether that you couldn't before, like Reeds and Hemp.",
+		"",
+		"§8- The dirt in the filled Planter is basically wet farmland, and so you can grow hemp on it without having to worry about anything but the light level, and reeds without having to worry about adjacent water"
+	],
+	dependencies: [
+		"1410df02"
+	],
+	tasks: [{
+		uid: "534c4de6",
+		type: "item",
+		items: [{
+			item: "betterwithmods:planter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f4e836c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "organic_crate"
+			}
+		}
+	}]
+}

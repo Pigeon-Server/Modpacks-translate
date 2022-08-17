@@ -1,0 +1,23 @@
+{
+	title: "Wither Skeletons! II",
+	icon: "minecraft:skull 1 1",
+	x: 7.25d,
+	y: 5.25d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6c9260e3"
+	],
+	tasks: [{
+		uid: "ac3e3c76",
+		type: "kill",
+		entity: "minecraft:wither_skeleton",
+		value: 128L
+	}],
+	rewards: [{
+		uid: "775286ee",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

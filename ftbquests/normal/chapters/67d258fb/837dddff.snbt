@@ -1,0 +1,23 @@
+{
+	title: "Wither Skeletons! IV",
+	icon: "minecraft:skull 1 1",
+	x: 7.25d,
+	y: 8.25d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8b7a594d"
+	],
+	tasks: [{
+		uid: "caed22ab",
+		type: "kill",
+		entity: "minecraft:wither_skeleton",
+		value: 1024L
+	}],
+	rewards: [{
+		uid: "b6472e9a",
+		type: "item",
+		item: "jjcoin:gold_coin"
+	}]
+}

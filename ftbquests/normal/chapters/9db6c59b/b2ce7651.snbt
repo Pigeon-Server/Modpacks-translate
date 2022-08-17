@@ -1,0 +1,25 @@
+{
+	title: "Apiary",
+	icon: "forestry:apiary",
+	x: 13.5d,
+	y: 2.5d,
+	text: [
+		"If you want to start playing with Bees, you will need some place to shelter them.The Bee House, the Apiary and the Alveary are the three places that do just that."
+	],
+	dependencies: [
+		"e4c79eea"
+	],
+	tasks: [{
+		uid: "4d10d71e",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "badec851",
+		type: "item",
+		item: "forestry:honey_pot"
+	}]
+}

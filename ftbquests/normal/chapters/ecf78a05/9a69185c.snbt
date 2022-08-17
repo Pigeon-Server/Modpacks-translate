@@ -1,0 +1,25 @@
+{
+	title: "Pattern Grid",
+	icon: "refinedstorage:grid 1 2",
+	x: 9.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b0196ad3"
+	],
+	tasks: [{
+		uid: "8b200fa3",
+		type: "item",
+		items: [{
+			item: "refinedstorage:grid 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1fce140",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	}]
+}

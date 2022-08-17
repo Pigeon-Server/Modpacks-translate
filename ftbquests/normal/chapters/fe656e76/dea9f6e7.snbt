@@ -1,0 +1,39 @@
+{
+	x: 10.0d,
+	y: 12.0d,
+	text: [
+		"This cart can store and transport any liquid.",
+		"",
+		"It is filled/emptied at a Liquid Loader/Unloader. Its capacity is the same as a Buildcraft Tank, 16 buckets.",
+		"",
+		"The liquid a Tank Cart can carry can be restricted by either placing a bucket in the filter slot or by crafting a Tank Cart and a bucket together.",
+		"",
+		"Additionaly, you can connect a tank cart with a steam locomotive and fill it with water. It will automatically load the internal tank of the loco. Perfect for longer journeys."
+	],
+	dependencies: [
+		"e8e80567"
+	],
+	tasks: [{
+		uid: "f50e4958",
+		type: "item",
+		items: [{
+			item: "railcraft:cart_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "14d7185d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "fluid_crate"
+			}
+		}
+	},
+	{
+		uid: "a715d7dc",
+		type: "item",
+		item: "railcraft:dust 1 1",
+		count: 8
+	}]
+}

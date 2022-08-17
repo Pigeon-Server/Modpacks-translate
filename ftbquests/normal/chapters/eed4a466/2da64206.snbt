@@ -1,0 +1,46 @@
+{
+	title: "Home sweet home",
+	x: 3.0d,
+	y: 7.5d,
+	text: [
+		"You will sometimes receive money for completed quests. Use it in the shop in the upper left corner of your screen to buy resources. New resources are being added every update."
+	],
+	dependencies: [
+		"d47c21d9"
+	],
+	tasks: [{
+		uid: "da028801",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "322a3403",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "88ee4409",
+		type: "item",
+		item: "quark:colored_flowerpot_magenta"
+	},
+	{
+		uid: "c7b8cbf0",
+		type: "item",
+		item: "quark:candle 1 14",
+		count: 5
+	},
+	{
+		uid: "d6d5fcd7",
+		type: "item",
+		item: "minecraft:painting"
+	},
+	{
+		uid: "d2b34b53",
+		type: "item",
+		item: "minecraft:fence",
+		count: 16
+	}]
+}

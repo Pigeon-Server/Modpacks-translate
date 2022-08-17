@@ -1,0 +1,30 @@
+{
+	title: "Crafting Grid",
+	icon: "refinedstorage:grid 1 1",
+	x: 6.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b0196ad3"
+	],
+	tasks: [{
+		uid: "511808e5",
+		type: "item",
+		items: [{
+			item: "refinedstorage:grid 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5876a1e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Cooking for blockheads",
+	icon: "cookingforblockheads:counter",
+	x: 1.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b0458784"
+	],
+	tasks: [{
+		uid: "7bc84699",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41de55ac",
+		type: "item",
+		item: "cookingforblockheads:recipe_book 1 1"
+	}]
+}

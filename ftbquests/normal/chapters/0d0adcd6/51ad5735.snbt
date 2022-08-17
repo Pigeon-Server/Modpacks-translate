@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"a0de421d"
+	],
+	tasks: [{
+		uid: "67b35808",
+		type: "item",
+		items: [{
+			item: "engineersdecor:small_lab_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "23372d6c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

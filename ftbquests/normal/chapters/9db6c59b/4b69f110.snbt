@@ -1,0 +1,40 @@
+{
+	title: "Apiarist's Chest",
+	icon: "forestry:bee_chest",
+	x: 12.5d,
+	y: 3.5d,
+	text: [
+		"During the course of your beekeeping career, it will quickly become apparent that many more bees are produced than you will know what to do with.",
+		"",
+		"Since only identical drones will stack with each other, and this occurs rarely, you will soon find your conventional chests full to bursting with bees. Luckily, those who have come before have developed the perfect technology to deal with the overflo",
+		"",
+		"The Apiarist's Chest is a storage device for up to 125 individual bees, with 25 slots spread over 5 pages, and a pane that displays overall statistics for species discovered, princess collected, queens bred and drones produced.",
+		"The chest itself is crafted using five honeycombs of any variety, a piece of glass and a wooden chest.",
+		"",
+		"The chest displays the bee's primary species on top, and below it several Question Marks (?). Each question mark represents a possible mutation when the species is crossed with another, while the colour of the mark denotes how rare the mutation is.",
+		"Green have the highest chance of a mutation occurring when two species cross, while yellow and red marks represent uncommon and rarer mutations.",
+		"Once a mutation is discovered, the question mark changes to an Exclamation Point (!) and an icon representing the other species will appear beneath."
+	],
+	dependencies: [
+		"b2ce7651"
+	],
+	tasks: [{
+		uid: "f50fae3c",
+		type: "item",
+		items: [{
+			item: "forestry:bee_chest"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63b18fff",
+		type: "item",
+		item: "forestry:bituminous_peat",
+		count: 5
+	},
+	{
+		uid: "ea06cffe",
+		type: "item",
+		item: "vanillafoodpantry:teadrink 1 381"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Decorate",
+	icon: "immersiveengineering:stone_decoration 1 4",
+	x: 8.0d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e271eef7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 4"
+		}],
+		ignore_nbt: 1b
+	}]
+}

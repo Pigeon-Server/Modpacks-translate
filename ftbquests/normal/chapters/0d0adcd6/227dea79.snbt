@@ -1,0 +1,46 @@
+{
+	title: "Redstone Wires",
+	icon: "immersiveengineering:wirecoil 1 5",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		" In order for Redstone power to enter or exit it, a Redstone Wire Connector is needed. One connector needs to be set to output via an Engineer's Hammer for the signal to transmit. The Redstone Wire Coil can only stretch up to 32 blocks, through",
+		"blocks and/or liquids.",
+		""
+	],
+	dependencies: [
+		"e714b45c"
+	],
+	tasks: [{
+		uid: "aa5f419b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5ecae4e3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e87c959c",
+		type: "item",
+		item: "immersiveengineering:metal 1 31"
+	},
+	{
+		uid: "c4f04c96",
+		type: "item",
+		item: "immersiveengineering:wirecoil 1 5",
+		count: 4
+	},
+	{
+		uid: "4a51672f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

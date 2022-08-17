@@ -1,0 +1,28 @@
+{
+	x: 16.5d,
+	y: 1.5d,
+	text: [
+		"A manual crafting table which remembers the last nine used recipes. Left click one of the recipes shown in the right-hand side to automatically fill in the crafting grid. Right-click to lock a memorized recipe and prevent a newer recipe from bumping ",
+		" it off."
+	],
+	dependencies: [
+		"cbaabedd"
+	],
+	tasks: [{
+		uid: "54be588b",
+		type: "item",
+		items: [{
+			item: "forestry:worktable"
+		}]
+	}],
+	rewards: [{
+		uid: "7e33563e",
+		type: "item",
+		item: "forestry:book_forester"
+	},
+	{
+		uid: "a7bc2022",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "External Heater",
+	icon: "immersiveengineering:metal_device1 1 1",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"It is used to power a Furnace with Redstone Flux (RF).",
+		"",
+		"To function, it should be placed next to a normal Furnace. Right-clicking one of its sides with an Engineer's Hammer will allow that side to accept RF energy. The Furnace will then be able to smelt items without inserting any solid fuels into it by",
+		"taking energy from the External Heater instead.",
+		"",
+		"The External Heater consumes up to 32 RF/t. Once the Furnace reaches optimal temperature, it only needs around 8 RF/t to maintain its temperature; the rest of the RF is used to speed the Furnace's smelting processes. If efficiency is preferred over",
+		"speed, the External Heater can be forced to transmit 8 RF/t by applying a Redstone signal to it."
+	],
+	dependencies: [
+		"44715b55"
+	],
+	tasks: [{
+		uid: "f173a697",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

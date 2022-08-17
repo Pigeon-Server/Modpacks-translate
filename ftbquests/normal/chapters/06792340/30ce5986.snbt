@@ -1,0 +1,32 @@
+{
+	title: "Gear Box",
+	icon: "betterwithmods:wooden_gearbox",
+	x: -1.0d,
+	y: 3.25d,
+	text: [
+		"The Gear Box acts as a means of relaying and distributing Mechanical power. It has only one input (the side which has 4 arrows pointing towards a square hole) to which an axle may be attached, but every other side acts as an output to which you may also attach other axles. Mechanical power supplied to the input axle is then relayed to each of the outputs.",
+		"",
+		" Applying redstone power to a Gear Box will cause the output gears to disengage, effectively allowing redstone control of mechanical power. You may place a lever directly on the box to control it."
+	],
+	dependencies: [
+		"d1136580"
+	],
+	tasks: [{
+		uid: "8467692f",
+		type: "item",
+		items: [{
+			item: "betterwithmods:wooden_gearbox"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1752d951",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "food_crate"
+			}
+		}
+	}]
+}

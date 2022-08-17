@@ -1,0 +1,130 @@
+{
+	title: "Metal Press",
+	icon: "immersiveengineering:metal_multiblock",
+	x: 10.5d,
+	y: 9.0d,
+	text: [
+		"The Metal Press is a 3x1x3 multi-block. It is used to create Plates and Rods.",
+		"",
+		"The Metal Press has no GUI. Redstone Flux (RF) is inputted through the top block of the multiblock (where the Heavy Engineering Block was). Items are inputted and outputted through the built-in Conveyor Belt. An extra Conveyor Belt or Hopper should ",
+		"be built leading into the Metal Press for dropped items to properly go through the Press.",
+		"",
+		"The Metal Press requires a Mold in order to function. Right-clicking (or as of version 0.7.4, throwing) a Metal Press with a Mold will attach the Mold to the Metal Press. The mold can be detached by shift right-clicking with an Engineer's Hammer.",
+		"The recipes performed depend on the Mold being used."
+	],
+	dependencies: [
+		"5ab06227"
+	],
+	tasks: [{
+		uid: "11cc625f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 2 1"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "91442511",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e95b2e62",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f9de00cf",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			Count: 2b,
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd9ffa70",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8c2c7725",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:mold"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "638a76da",
+		type: "item",
+		title: "Any plateSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plateSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "f28897ed",
+		type: "item",
+		title: "Any plateIron",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plateIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "e240f432",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:MetalPress"
+			}
+		}
+	},
+	{
+		uid: "96c981a2",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	},
+	{
+		uid: "f05e17c5",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "7e3fcf7c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "materials_crate"
+			}
+		}
+	}]
+}

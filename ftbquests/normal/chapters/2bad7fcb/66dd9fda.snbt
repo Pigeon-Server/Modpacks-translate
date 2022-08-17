@@ -1,0 +1,17 @@
+{
+	title: "Golden tier rewards",
+	icon: "jjcoin:gold_coin",
+	x: 3.5d,
+	y: 9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5722cdd5"
+	],
+	rewards: [{
+		uid: "16a14ee1",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	}]
+}

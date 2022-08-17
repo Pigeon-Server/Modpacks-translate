@@ -1,0 +1,43 @@
+{
+	title: "Need more food",
+	icon: {
+		id: "vanillafoodpantry:tatoes",
+		tag: {
+			_Hord_Instructions: {
+				FoodPortion: 6,
+				FoodTotal: 12,
+				XFood: 1b
+			}
+		},
+		Damage: 3s
+	},
+	x: 1.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ae3a523a"
+	],
+	tasks: [{
+		uid: "a2faca9d",
+		type: "item",
+		items: [{
+			id: "vanillafoodpantry:tatoes",
+			tag: {
+				_Hord_Instructions: {
+					FoodPortion: 6,
+					FoodTotal: 12,
+					XFood: 1b
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a10e2dc0",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "High Voltage AF",
+	icon: "alternatingflux:connector",
+	x: 9.0d,
+	y: -1.0d,
+	text: [
+		"This addon for Immersive Engineering adds a new tier of wire: AF, or Alternating Flux. This acts as a sort of \"Super High Voltage\" line. Power transmitted over AF lines has very low power loss over distance, but cannot be connected to machines, and must be converted between other tiers of wire with special transformers."
+	],
+	dependencies: [
+		"e18a2576"
+	],
+	tasks: [{
+		uid: "fca6788c",
+		type: "item",
+		items: [{
+			item: "alternatingflux:connector"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f837e821",
+		type: "item",
+		items: [{
+			item: "alternatingflux:connector 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6f7a83fe",
+		type: "item",
+		items: [{
+			item: "alternatingflux:wirecoil"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "efbfbae1",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "4732e1ba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "fluid_crate"
+			}
+		}
+	}]
+}

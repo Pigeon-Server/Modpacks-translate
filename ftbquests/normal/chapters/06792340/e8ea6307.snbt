@@ -1,0 +1,36 @@
+{
+	title: "We need to go deeper!",
+	icon: "minecraft:obsidian",
+	x: -3.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d1136580"
+	],
+	tasks: [{
+		uid: "2d73cfdb",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian 10"
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4c742ae",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "f5f891f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "potion_crate"
+			}
+		}
+	}]
+}

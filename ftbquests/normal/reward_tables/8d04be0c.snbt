@@ -1,0 +1,113 @@
+{
+	title: "Seed crate II",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "harvestcraft:juniperberryseeditem"
+	},
+	{
+		item: "harvestcraft:tomatilloseeditem"
+	},
+	{
+		item: "harvestcraft:taroseeditem"
+	},
+	{
+		item: "harvestcraft:sisalseeditem"
+	},
+	{
+		item: "harvestcraft:quinoaseeditem"
+	},
+	{
+		item: "harvestcraft:mulberryseeditem"
+	},
+	{
+		item: "harvestcraft:milletseeditem"
+	},
+	{
+		item: "harvestcraft:pineappleseeditem"
+	},
+	{
+		item: "harvestcraft:grapeseeditem"
+	},
+	{
+		item: "harvestcraft:kiwiseeditem"
+	},
+	{
+		item: "harvestcraft:cranberryseeditem"
+	},
+	{
+		item: "harvestcraft:riceseeditem"
+	},
+	{
+		item: "harvestcraft:seaweedseeditem"
+	},
+	{
+		item: "harvestcraft:curryleafseeditem"
+	},
+	{
+		item: "harvestcraft:sesameseedsseeditem"
+	},
+	{
+		item: "harvestcraft:waterchestnutseeditem"
+	},
+	{
+		item: "harvestcraft:gigapickleseeditem"
+	},
+	{
+		item: "harvestcraft:kaleseeditem"
+	},
+	{
+		item: "harvestcraft:agaveseeditem"
+	},
+	{
+		item: "harvestcraft:amaranthseeditem"
+	},
+	{
+		item: "harvestcraft:arrowrootseeditem"
+	},
+	{
+		item: "harvestcraft:cassavaseeditem"
+	},
+	{
+		item: "harvestcraft:chickpeaseeditem"
+	},
+	{
+		item: "harvestcraft:elderberryseeditem"
+	},
+	{
+		item: "harvestcraft:lentilseeditem"
+	},
+	{
+		item: "harvestcraft:kohlrabiseeditem"
+	},
+	{
+		item: "harvestcraft:kenafseeditem"
+	},
+	{
+		item: "harvestcraft:juteseeditem"
+	},
+	{
+		item: "harvestcraft:jicamaseeditem"
+	},
+	{
+		item: "harvestcraft:greengrapeseeditem"
+	},
+	{
+		item: "harvestcraft:huckleberryseeditem"
+	},
+	{
+		item: "harvestcraft:flaxseeditem"
+	}],
+	loot_crate: {
+		string_id: "seed_crate_ii",
+		item_name: "Seed crate II",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

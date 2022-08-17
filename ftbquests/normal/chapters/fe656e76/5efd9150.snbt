@@ -1,0 +1,30 @@
+{
+	x: 6.0d,
+	y: 15.0d,
+	text: [
+		"The Locking Track is a special type of minecart track added by the Railcraft mod. It is a combination of the Lockdown, Holding, and Boarding Track. It has several different modes; Train Lockdown, Holding, Boarding, Train Boarding, and Lockdown. ",
+		"",
+		" The modes can be switched by using a Crowbar on the track."
+	],
+	dependencies: [
+		"b516f7bd"
+	],
+	tasks: [{
+		uid: "242d936e",
+		type: "item",
+		items: [{
+			id: "railcraft:track_outfitted",
+			tag: {
+				railcraft: {
+					rail: "railcraft_iron",
+					kit: "railcraft_locking"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "50382bbc",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

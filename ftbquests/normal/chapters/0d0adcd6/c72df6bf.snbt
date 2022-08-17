@@ -1,0 +1,87 @@
+{
+	title: "Diesel Generator",
+	icon: "immersiveengineering:metal_multiblock 1 10",
+	x: 13.5d,
+	y: 6.0d,
+	text: [
+		"The Diesel Generator is a 3x5x3 multi-block added by Immersive Engineering. It is used to create Redstone Flux (RF) from Biodiesel and Fuel.",
+		"",
+		"The Diesel Generator does not have a GUI. Fuel is entered through the rightmost-bottommost blocks of the longer sides of the multi-block. RF is output through the top of the three frontmost blocks (each has a small Copper-looking dot on them). The ",
+		"multi-block's processes can be halted via Redstone through the \"control panel\", the center block of the right-side.",
+		"",
+		"The Diesel Generator has an (invisible) internal fluid buffer of 24000mB, which is enough to make 12,288,000 RF over 150 seconds. It does not have an internal energy buffer. It will automatically shut off if it cannot export power.",
+		"",
+		"For an efficient Diesel Generator setup, one Refinery, two Industrial Squeezers and two Industrial Fermenters per two Diesel Generators is required"
+	],
+	dependencies: [
+		"76a52be5"
+	],
+	tasks: [{
+		uid: "56e9a983",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 6 1"
+		}],
+		count: 6L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "95837bbf",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 5 6"
+		}],
+		count: 5L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea69ef95",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82a0c3fe",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 13 5"
+		}],
+		count: 13L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "276665e8",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 4 6"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ca3cf41e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 9 7"
+		}],
+		count: 9L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a9434b2",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:DieselGenerator"
+			}
+		}
+	},
+	{
+		uid: "62122392",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

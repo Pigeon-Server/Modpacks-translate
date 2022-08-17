@@ -1,0 +1,40 @@
+{
+	x: 7.0d,
+	y: 15.0d,
+	text: [
+		"Switch Rails allow you move minecarts from one rail line to another. They differ from vanilla Minecraft switches in that they allow you to either go straight or to turn, instead of either turning left or right. However, they cannot be operated",
+		"directly by redstone. To do that you need a Switch Motor. The Switch Motor must be placed opposite the turnout. Alternatively, if you only want a manual switch, you can use a Switch Lever.",
+		"",
+		"Minecarts approaching from the Diverging Line will temporally spring the switch regardless of its current setting, allowing them to traverse the switch without the need to manually realign it."
+	],
+	dependencies: [
+		"b516f7bd"
+	],
+	tasks: [{
+		uid: "af6ab218",
+		type: "item",
+		items: [{
+			item: "railcraft:tool_spike_maul_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4d8eac7",
+		type: "item",
+		items: [{
+			item: "railcraft:actuator"
+		}]
+	}],
+	rewards: [{
+		uid: "17974ba6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "9a83699d",
+		type: "item",
+		item: "railcraft:dust 1 1",
+		count: 8
+	}]
+}

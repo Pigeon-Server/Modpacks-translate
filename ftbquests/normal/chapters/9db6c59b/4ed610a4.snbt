@@ -1,0 +1,31 @@
+{
+	title: "Making Frames",
+	icon: "forestry:frame_untreated",
+	x: 13.5d,
+	y: 3.5d,
+	text: [
+		"The Apiary is very slow (10% of the speed of the Alveary to produce bee products if you don't place any Frames in it. There are three types of frames."
+	],
+	dependencies: [
+		"b2ce7651"
+	],
+	tasks: [{
+		uid: "b5590a94",
+		type: "item",
+		items: [{
+			item: "forestry:frame_untreated"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29cf696e",
+		type: "item",
+		item: "forestry:frame_untreated"
+	},
+	{
+		uid: "ac7c050a",
+		type: "item",
+		item: "quark:colored_flowerpot_green"
+	}]
+}

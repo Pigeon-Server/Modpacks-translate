@@ -1,0 +1,29 @@
+{
+	title: "Urn",
+	icon: "betterwithmods:urn",
+	x: 5.5d,
+	y: 1.0d,
+	text: [
+		"An Urn is crafted by placing a clay block on top of a Turntable and letting it rotate until the Unfired Pottery becomes the shape of an urn, which is after 8 complete turns. You will get 3 Clay Balls back in the process, so the Urn costs 1 Clay Ball total. After that it must by fired in a Kiln.",
+		"",
+		"An Urn is traditionally used as a container for the ashes of the deceased.",
+		"",
+		"It can be placed as an aesthetic block."
+	],
+	dependencies: [
+		"1410df02"
+	],
+	tasks: [{
+		uid: "de8e00f9",
+		type: "item",
+		items: [{
+			item: "betterwithmods:urn"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e6d6fcaa",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

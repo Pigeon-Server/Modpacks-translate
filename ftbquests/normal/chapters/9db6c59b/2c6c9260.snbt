@@ -1,0 +1,38 @@
+{
+	title: "Analyzer",
+	icon: {
+		id: "forestry:portable_alyzer",
+		tag: {
+			UID: -189913198,
+			Slots: {}
+		}
+	},
+	x: 18.5d,
+	y: -0.5d,
+	text: [
+		" It provides a non-invasive way to glean every last bit of information from your specimens, butterflies and trees.",
+		"",
+		"Just provide a honey or honeydew drop to pacify the specimen to have everything you ever wanted to know but were afraid to ask at your fingertips."
+	],
+	dependencies: [
+		"44161319"
+	],
+	tasks: [{
+		uid: "dcca0b14",
+		type: "item",
+		items: [{
+			id: "forestry:portable_alyzer",
+			tag: {
+				UID: -189913198,
+				Slots: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "caeb4d8c",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	}]
+}

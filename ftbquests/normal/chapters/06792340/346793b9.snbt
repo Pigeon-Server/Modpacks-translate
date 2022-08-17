@@ -1,0 +1,43 @@
+{
+	title: "I came, I saw, I conquer.",
+	icon: "betterwithmods:saw",
+	x: 2.5d,
+	y: 4.0d,
+	text: [
+		"The Saw allows you to cut Wood Logs for additional Planks, and to trim off Bark.  Planks can be cut into Sidings or smaller components.  It's also rather dangerous to nearby entities, so point the sharp end away from yourself.",
+		"",
+		"The saw can be powered from any side with mechnical energy, such as from a Windmill.",
+		"",
+		"",
+		"§2- While receiving Mechanical power the saw will inflict 2 hearts of damage per second on mobs and players. (Hint: automated mob grinding)",
+		"- It will not receive Mechanical power from the blade side.",
+		"- It cannot be powered by the Hand Crank.",
+		"- In addition to crafting, the saw can be used in automation to make automated tree farming, wood processing"
+	],
+	dependencies: [
+		"3cc3e0c6"
+	],
+	tasks: [{
+		uid: "88dc41da",
+		type: "item",
+		items: [{
+			item: "betterwithmods:saw"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7768bf7b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "food_crate"
+			}
+		}
+	},
+	{
+		uid: "3ffb41ad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

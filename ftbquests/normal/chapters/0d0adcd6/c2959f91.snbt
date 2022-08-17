@@ -1,0 +1,36 @@
+{
+	title: "Lv connector",
+	icon: "immersiveengineering:connector",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"It is used to input and output Redstone Flux (RF) from Copper Wire Coils.",
+		"",
+		"Right-clicking a LV Wire Connector with a LV Wire Coil links the first end of the cable. Right-clicking a different LV Wire Connector will connect them.",
+		"",
+		"Note a LV Wire Coil can only stretch 16 blocks in length.",
+		"",
+		"Engineer's Wire Cutters can be used to disconnect wires with a right-click."
+	],
+	dependencies: [
+		"e714b45c"
+	],
+	tasks: [{
+		uid: "ded30dd0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "084856fb",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	},
+	{
+		uid: "4e059556",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

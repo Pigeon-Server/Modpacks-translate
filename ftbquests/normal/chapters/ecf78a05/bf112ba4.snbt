@@ -1,0 +1,25 @@
+{
+	title: "Wireless Crafting",
+	icon: "refinedstorage:wireless_crafting_monitor",
+	x: 12.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b137d3ce"
+	],
+	tasks: [{
+		uid: "25fee39e",
+		type: "item",
+		items: [{
+			item: "refinedstorage:wireless_crafting_monitor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "086fab5f",
+		type: "item",
+		item: "jjcoin:silver_coin"
+	}]
+}

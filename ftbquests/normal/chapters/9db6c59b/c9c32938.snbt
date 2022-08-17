@@ -1,0 +1,40 @@
+{
+	title: "Farm Valve",
+	icon: {
+		id: "forestry:ffarm",
+		tag: {
+			FarmBlock: 0
+		},
+		Damage: 4s
+	},
+	x: 22.5d,
+	y: 0.5d,
+	text: [
+		"Farm Valve (Hydration)",
+		"",
+		"Some farms require water for hydration purposes. Although you can do it manually by supplying it through liquid containers (such as cans), you can also automate the process by using Farm Valves.",
+		"",
+		"By connecting a Waterproof Pipe into the Farm Valve and supplying Water, you can automatically fill the Farm's Water Tank."
+	],
+	dependencies: [
+		"d783a720"
+	],
+	tasks: [{
+		uid: "23947e25",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ddb9c14",
+		type: "item",
+		item: "forestry:apatite",
+		count: 5
+	}]
+}

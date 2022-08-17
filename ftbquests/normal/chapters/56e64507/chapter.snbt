@@ -1,0 +1,10 @@
+{
+	title: "🍕🍞🍞♨ Vanilla Food Pantry",
+	icon: "cookingforblockheads:oven",
+	description: [
+		"Cooking with blockheads!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,40 @@
+{
+	title: "Charging Station",
+	icon: "immersiveengineering:metal_device1 1 5",
+	x: 6.0d,
+	y: 3.0d,
+	text: [
+		"Energy (RF only) can be input through the bottom and back side of the block. Right-clicking the Charging Station with an energy container in hand will put the container inside the Charging Station, and right-clicking it again will remove that",
+		"container. While inside, the Charging Station will transfer it's energy to the stored item, at a rate of 4000 RF/t. EU-using tools and batteries can be charged at a conversion rate of 4 RF to 1 EU (making the charging rate 1000 EU/t).",
+		"",
+		"The Charging Station has Redstone Comparator support. When the item in the Charging Station is at least 1/15 full, the Redstone Comparator will output a Redstone strength of 1. When it is at least 2/15 full, a Redstone strength of 2, 3/15 fully, a",
+		"strength of 3, and so on."
+	],
+	dependencies: [
+		"1613f4fd"
+	],
+	tasks: [{
+		uid: "1c2a96a4",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81ad9b9b",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	},
+	{
+		uid: "c3d5e827",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	}]
+}

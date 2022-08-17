@@ -1,0 +1,37 @@
+{
+	title: "Red Wax",
+	icon: "forestry:refractory_wax",
+	x: 17.5d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b3ca6c0d"
+	],
+	tasks: [{
+		uid: "06474e76",
+		type: "item",
+		items: [{
+			item: "forestry:refractory_wax"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f6ec4db",
+		type: "item",
+		items: [{
+			item: "forestry:refractory"
+		}]
+	}],
+	rewards: [{
+		uid: "bd91862b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "fluid_crate"
+			}
+		}
+	}]
+}

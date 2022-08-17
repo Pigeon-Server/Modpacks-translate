@@ -1,0 +1,45 @@
+{
+	title: "Tunnel bore",
+	icon: "railcraft:bore",
+	x: 10.0d,
+	y: 13.0d,
+	text: [
+		"The Tunnel Bore is an automatic miner from the Railcraft mod. This miner, when set up properly, will dig 3x3 tunnels in whichever direction it is facing. It is powered by solid fuels, and requires tracks to move forward. ",
+		"It will automatically place tracks as they are supplied to it. As well as automatically placing tracks, it will also automatically place gravel if there is not a spot to place the tracks, assuming it has enough gravel in its inventory.",
+		"It will not place gravel if the hole is over 10 blocks deep.",
+		"",
+		"The Tunnel Bore requires one of the three Bore Heads: Diamond, Steel, or Iron. Each Bore Head can mine the blocks that that specific tier of pickaxe can mine. For example, only Diamond can mine Obsidian. The Tunnel Bore can stop for several reasons;",
+		" the Bore Head has broken, it has run out of fuel, tracks, or gravel, there is a hole greater than 10 blocks deep, water is encountered, lava is suspected, or an unbreakable block is in its path.",
+		"",
+		"Place the Tunnel Bore in the desired direction; it has to be placed on existing tracks. The larger end is the way it will move. The GUI has four sections, \"Head\", \"Fuel\", \"Ballast\", and \"Track\". Bore Heads should be placed in the Head slot,",
+		"solid fuel in the Fuel slot, gravel in the Ballast slot, and tracks in the Track slot. The Tunnel Bore will not store blocks it breaks, they will simply pop out",
+		"the back and land on whatever is behind it. To grab and store the items, link one or several Chest Carts to the Bore using a Crowbar.",
+		"Fuel, gravel, tracks, and bore heads can be stored in the linked carts; the bore will automatically restock itself with the items in the carts."
+	],
+	dependencies: [
+		"e8e80567"
+	],
+	tasks: [{
+		uid: "7a3355dc",
+		type: "item",
+		items: [{
+			item: "railcraft:bore"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "69e77214",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:strong_chance"
+			}
+		}
+	},
+	{
+		uid: "12244a67",
+		type: "item",
+		item: "railcraft:borehead_iron"
+	}]
+}

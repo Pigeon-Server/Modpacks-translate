@@ -1,0 +1,36 @@
+{
+	title: "Hellfire power",
+	icon: "betterwithmods:material 1 17",
+	x: 4.5d,
+	y: 5.5d,
+	text: [
+		"Hellfire Dust is the highly-flammable by-product left behind when Ground Netherrack is passed through a Hopper containing a Soul Sand filter.",
+		"",
+		"Concentrated Hellfire is a key ingredient in producing heat sources for cauldrons, crucibles and kilns."
+	],
+	dependencies: [
+		"83957ff3",
+		"0b333ac4"
+	],
+	tasks: [{
+		uid: "5d97e0b4",
+		type: "item",
+		items: [{
+			item: "betterwithmods:material 1 16"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "40c46246",
+		type: "item",
+		items: [{
+			item: "betterwithmods:material 1 17"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d4009755",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

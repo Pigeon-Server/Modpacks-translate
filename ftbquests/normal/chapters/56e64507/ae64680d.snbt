@@ -1,0 +1,25 @@
+{
+	title: "Need more food",
+	icon: "vanillafoodpantry:potato_chowder",
+	x: 3.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ae3a523a"
+	],
+	tasks: [{
+		uid: "a20b914d",
+		type: "item",
+		items: [{
+			item: "vanillafoodpantry:potato_chowder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f280f215",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

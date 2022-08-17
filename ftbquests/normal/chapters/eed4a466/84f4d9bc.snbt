@@ -1,0 +1,41 @@
+{
+	x: 5.0d,
+	y: 6.5d,
+	text: [
+		"It is used to pack up drawers which allows it to be broken without spilling its contents. The drawer will hold onto its contents and will be unpacked once it is placed down."
+	],
+	dependencies: [
+		"88520b1c"
+	],
+	tasks: [{
+		uid: "1d2ac9db",
+		type: "item",
+		items: [{
+			item: "storagedrawers:tape"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1319d961",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "677a108c",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 3s
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 13.0d,
+	text: [
+		"The standard track is essentially equal to the vanilla Minecraft rail. They are built with standard rails and wooden railbeds.",
+		"",
+		"They can have Track Kits applied."
+	],
+	dependencies: [
+		"d165ef39"
+	],
+	tasks: [{
+		uid: "4f9d890d",
+		type: "item",
+		items: [{
+			item: "minecraft:rail"
+		}]
+	}],
+	rewards: [{
+		uid: "1d194c1e",
+		type: "item",
+		item: "minecraft:minecart"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Core Sample Drill",
+	icon: "immersiveengineering:metal_device1 1 7",
+	x: 4.5d,
+	y: 8.0d,
+	text: [
+		"It is used to detect and analyze Mineral Deposits that can be extracted by an Excavator.",
+		"",
+		"The Core Sample Drill is placed as a single block but stands three blocks tall. The bottom block accepts Redstone Flux (RF) energy. The Core Sample Drill has no GUI. The Core Sample Drill takes 10 seconds by default to do its work (200 ticks, 8000 RF",
+		"per use), which can be changed via the configuration file. When complete, it can be right-clicked to receive a Core Sample.",
+		"",
+		"Hovering over the Core Sample Drill will show the chunk boundaries that it scans, in orange.",
+		"",
+		""
+	],
+	dependencies: [
+		"927291b4",
+		"5ab06227"
+	],
+	tasks: [{
+		uid: "7ae6f1d8",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "27d6e041",
+		type: "item",
+		item: "minecraft:map"
+	},
+	{
+		uid: "f8d46e62",
+		type: "item",
+		item: "bibliocraft:mapframe 1 1"
+	}]
+}

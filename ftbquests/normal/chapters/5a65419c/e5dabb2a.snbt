@@ -1,0 +1,22 @@
+{
+	title: "Decorate",
+	icon: "quark:basalt",
+	x: 11.25d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "bff2c162",
+		type: "item",
+		items: [{
+			item: "quark:basalt"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3bcdec30",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

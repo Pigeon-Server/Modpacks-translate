@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: 6.5d,
+	text: [
+		"The crude knife is used for very early game resource gathering. This is the only way to gather plant fiber used to craft other crucial items in the early game.",
+		"",
+		"As a crafting tool, the knife can be used to convert rock and flint into flint shards. Just place above the item in your crafting grid. This doesn't consume the knife, just causes some durability loss."
+	],
+	dependencies: [
+		"445b411c"
+	],
+	tasks: [{
+		uid: "1d16b29f",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:crude_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19343380",
+		type: "item",
+		item: "minecraft:flint"
+	}]
+}

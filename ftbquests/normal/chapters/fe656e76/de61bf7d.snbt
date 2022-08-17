@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"Boat trains",
+		"",
+		"You can link boats from this mod by using a Rope item. First click the boat that will follow then click the leading boat to finish linking the two. That way, only one boat needs to navigate and have fuel in a fleet!"
+	],
+	dependencies: [
+		"17c6eae6"
+	],
+	tasks: [{
+		uid: "f0f1b065",
+		type: "item",
+		items: [{
+			id: "moarboats:rope",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "35e9cb90",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

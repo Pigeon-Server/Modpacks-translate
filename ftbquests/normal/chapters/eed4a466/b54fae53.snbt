@@ -1,0 +1,62 @@
+{
+	title: "Basic Charcoal Production",
+	x: 11.0d,
+	y: 8.5d,
+	text: [
+		"Building the Pit",
+		"",
+		"Step 1",
+		"Lay out a connected Wood Piles structure.",
+		"Size and shape does not matter.",
+		"",
+		"Step 2",
+		"Place a fireproof block on every open Wood Pile face. (Dirt, Clay Block, Netherrack, Loam, End Stone, End Stone Bricks)",
+		"Leave one block open for ignition.",
+		"",
+		"Step 3",
+		"Use a Flint & Steel(or other source of fire?) and ignite one Wood Pile.",
+		"",
+		"Step 4",
+		"Cover up the fire with a fireproof block.",
+		"Make sure the ignited Wood Pile block is still there when covering it up.",
+		"If there are smoke particles around your charcoal pit it is running.",
+		"",
+		"Step 5",
+		"Wait until the particles are gone. This takes a good amount of time!",
+		"Dig up the fireproof blocks. The pit should be filled with Charcoal Blocks."
+	],
+	dependencies: [
+		"cbaabedd"
+	],
+	tasks: [{
+		uid: "7aa7636c",
+		type: "item",
+		title: "Any blockCharcoal",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCharcoal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 9L
+	},
+	{
+		uid: "ed7cdea8",
+		type: "item",
+		items: [{
+			item: "forestry:wood_pile"
+		}],
+		count: 4L
+	},
+	{
+		uid: "76b3713c",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 16L
+	}]
+}

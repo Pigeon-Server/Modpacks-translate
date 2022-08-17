@@ -1,0 +1,49 @@
+{
+	title: "Witches' brew",
+	icon: "betterwithmods:cooking_pot 1 1",
+	x: -3.0d,
+	y: 2.5d,
+	text: [
+		"The cauldron is a large iron vat that functions like a chest unless it is directly above a §4fire§0§0§f block. If it is, it slowly processes any valid recipes in its inventory, one at a time.",
+		"",
+		"It should be noted that more advanced reactions like rendering into glue require the flames underneath the Cauldron to be §4stoked, §§which is only possible with §3§2§1Hibachis.§f §f§§Reactions requiring a regular flame, such as cooking or boiling, will not proceed when it is heated by a stoked flame.",
+		"",
+		"§2§8- Lava will not heat the Cauldron",
+		"- Do NOT use Bellows to stoke the fire under a Cauldron containing Hellfire Dust or any other explosives; if you do, be ready to fight... and redecorate."
+	],
+	dependencies: [
+		"b0458784"
+	],
+	tasks: [{
+		uid: "d8d1c824",
+		type: "item",
+		items: [{
+			item: "betterwithmods:cooking_pot 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18fd8c33",
+		type: "item",
+		title: "Any blockCharcoal",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCharcoal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "48e66033",
+		type: "item",
+		item: "minecraft:glass_bottle"
+	},
+	{
+		uid: "46d9c727",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

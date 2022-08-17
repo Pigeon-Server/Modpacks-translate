@@ -1,0 +1,30 @@
+{
+	title: "Kinetic Generator",
+	icon: "immersiveengineering:metal_device1 1 2",
+	x: 3.0d,
+	y: 4.0d,
+	text: [
+		"The Kinetic Dynamo is used to generate energy in conjunction with a Windmill and/ or a Water Wheel. Right-clicking the Kinetic Dynamo with one of those items will attach them onto the generator. All sides of the block, excluding the top and bottom",
+		"sides, can have one of the kinetic-based items on them.",
+		"",
+		"Placement is important and it is best to place it on a wall or tower, as the blades of the propelling device used need from 5 to 7m diameter of free vertical space in front of the Dynamo to fit and spin freely. ",
+		"",
+		"The Dynamo can be oriented properly by Right-clicking it with an Engineer's Hammer to rotate it."
+	],
+	dependencies: [
+		"02eaadaa"
+	],
+	tasks: [{
+		uid: "9adb9631",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b3bad671",
+		type: "item",
+		item: "engineersdecor:sign_factoryarea"
+	}]
+}

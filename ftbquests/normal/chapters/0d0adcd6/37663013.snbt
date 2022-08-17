@@ -1,0 +1,31 @@
+{
+	title: "Mv wire",
+	icon: "immersiveengineering:wirecoil 1 1",
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"In order for Redstone Flux (RF) to enter or exit it, a MV Wire Connector is needed. The MV Wire Coil can only stretch up to 16 blocks, through blocks and/or liquids. Additionally, it can only manage up to 8192 RF/t; for any higher, a HV Wire Coil is",
+		"needed."
+	],
+	dependencies: [
+		"1613f4fd"
+	],
+	tasks: [{
+		uid: "c9e71b7b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "469c387c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "toolparts_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Gas Turbine",
+	icon: "techreborn:gas_turbine",
+	x: 8.75d,
+	y: 8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4d3aa4f1"
+	],
+	tasks: [{
+		uid: "d965ff40",
+		type: "item",
+		items: [{
+			item: "techreborn:gas_turbine"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "406b88c4",
+		type: "item",
+		item: "jjcoin:silver_coin"
+	}]
+}

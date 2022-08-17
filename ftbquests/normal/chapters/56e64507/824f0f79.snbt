@@ -1,0 +1,53 @@
+{
+	title: "Need more food",
+	icon: {
+		id: "vanillafoodpantry:decker",
+		tag: {
+			SAMPLE: 1b,
+			_Hord_Instructions: {
+				FoodPortion: 5,
+				FoodTotal: 23,
+				FoodSaturation: 0.6f,
+				UiTip: "Bit o' Roasted Veg
+Cooked Chicken
+French Bread",
+				XFood: 1b
+			}
+		},
+		Damage: 1s
+	},
+	x: 5.5d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"61ef2f0e"
+	],
+	tasks: [{
+		uid: "a588dae0",
+		type: "item",
+		items: [{
+			id: "vanillafoodpantry:decker",
+			tag: {
+				SAMPLE: 1b,
+				_Hord_Instructions: {
+					FoodPortion: 5,
+					FoodTotal: 23,
+					FoodSaturation: 0.6f,
+					UiTip: "Bit o' Roasted Veg
+Cooked Chicken
+French Bread",
+					XFood: 1b
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e68f390",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Water Wheel",
+	icon: "immersiveengineering:wooden_device1",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"The Water Wheel is a more advanced device for generating Mechanical power than the Wind Mill. While it requires the precision crafting represented by the saw and the ability to render leather into glue to be created, it does not suffer the same disadvantages as the Wind Mill in that it can be used both below ground and reliably under any weather conditions. However, given its dependency on water, it can not be used in the Nether.",
+		"",
+		"When attempting to place a Water Wheel, you must ensure that the space it will occupy is clear of any other blocks, other than water. When water flows along the bottom or side of the Water Wheel, it will cause the Wheel to spin, and that motion will transfer mechanical power to the axle on which it is mounted."
+	],
+	dependencies: [
+		"346793b9"
+	],
+	tasks: [{
+		uid: "29bf99d3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b046a59",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "cc3edc50",
+		type: "item",
+		item: "minecraft:dye",
+		count: 6
+	}]
+}

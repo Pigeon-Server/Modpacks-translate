@@ -1,0 +1,10 @@
+{
+	title: "Reward Zone",
+	icon: "jjcoin:gold_coin",
+	description: [
+		"Exchange your coins for something useful"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

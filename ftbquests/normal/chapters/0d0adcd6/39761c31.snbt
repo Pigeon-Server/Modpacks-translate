@@ -1,0 +1,25 @@
+{
+	title: "Current Transformer",
+	icon: "immersiveengineering:connector 1 11",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"It works as a relay (connector) between all Wire Coils. When right-clicked, it will provide (via Chat) the average Redstone Flux (RF) energy transferred over the last 1 second."
+	],
+	dependencies: [
+		"17a58538"
+	],
+	tasks: [{
+		uid: "997fba1d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c65af4f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Silver tier rewards",
+	icon: "jjcoin:silver_coin",
+	x: 8.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"02f64806"
+	],
+	tasks: [{
+		uid: "709c0cbd",
+		type: "item",
+		items: [{
+			item: "jjcoin:silver_coin"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18286647",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	}]
+}

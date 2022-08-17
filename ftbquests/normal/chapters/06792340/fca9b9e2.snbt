@@ -1,0 +1,25 @@
+{
+	title: "Iron chests",
+	icon: "ironchest:iron_chest",
+	x: 12.5d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4f136be3"
+	],
+	tasks: [{
+		uid: "547145ca",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e5d3c3b",
+		type: "item",
+		item: "ironchest:iron_chest 1 4"
+	}]
+}

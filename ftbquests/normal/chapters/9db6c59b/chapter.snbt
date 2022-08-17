@@ -1,0 +1,10 @@
+{
+	title: "IV - Agricultural Expansion",
+	icon: "minecraft:sapling",
+	description: [
+		"Final goal of this age: multiblock farms, ethanol as biofuel for RF generation, automated food production."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

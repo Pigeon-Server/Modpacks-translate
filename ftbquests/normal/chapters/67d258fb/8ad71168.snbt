@@ -1,0 +1,23 @@
+{
+	title: "Blazes! II",
+	icon: "minecraft:blaze_rod",
+	x: 8.75d,
+	y: 5.25d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9ddcf342"
+	],
+	tasks: [{
+		uid: "2db7f79c",
+		type: "kill",
+		entity: "minecraft:blaze",
+		value: 128L
+	}],
+	rewards: [{
+		uid: "4bdfdd39",
+		type: "item",
+		item: "jjcoin:diamond_coin"
+	}]
+}

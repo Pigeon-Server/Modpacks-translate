@@ -1,0 +1,90 @@
+{
+	title: "Alveary",
+	icon: "forestry:alveary.plain",
+	x: 14.5d,
+	y: 2.5d,
+	text: [
+		"The Alveary is an upgraded (and much more expensive) version of the Apiary. Apart from being faster than an Apiary and requiring less maintenance, it is also capable of regulating the temperature using the Alveary Fan and the Alveary Heater blocks.",
+		"",
+		"To build an Alveary, you need to build a 3x3x3 cube of Alveary Blocks, and then cover the top with Wooden Slabs.",
+		"",
+		"Using the Alveary Fan and the Alveary Heater, you can control the temperature of the Alveary.",
+		"This way, you don't need to have Apiaries on specific Biomes for specific bee species.",
+		"",
+		"Alveary Heater warms up the temperaure inside the Alveary.To use it, replace one of the blocks of the Alveary (except the Slabs!) by the Alveary Heater Block, and use a powerful Engine to power it.",
+		"It is recommended to remove any Bees and items from the Alveary before doing this.",
+		"",
+		"The Alveary Fan does the exact opposite of the Alveary Heater: It cools down the temperature of the Alveary.To use it, replace one of the blocks of the Alveary (except the Slabs!) by the Alveary Fan Block, and use a powerful Engine to power it.",
+		"",
+		"The Swarmer is a special Alveary block, which has a 1% chance of spawning a Swarm Hive near the Apiary per Royal Jelly that's inside it. The bees found in those Swarms are the same as the one in the Alveary, but the princesses are always Ignoble."
+	],
+	dependencies: [
+		"b2ce7651"
+	],
+	tasks: [{
+		uid: "0502ff89",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.plain"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "16919e23",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.fan"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8d6f3102",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.heater"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "390a5e26",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.swarmer"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "299b2c9c",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.hygro"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa56edd5",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.sieve"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08f226be",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.stabiliser"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "693c01b7",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	},
+	{
+		uid: "6cf09b92",
+		type: "item",
+		item: "forestry:ambrosia"
+	}]
+}

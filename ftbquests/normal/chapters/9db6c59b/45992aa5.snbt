@@ -1,0 +1,26 @@
+{
+	title: "Peat-fired",
+	icon: "forestry:engine_peat",
+	x: 21.5d,
+	y: 6.5d,
+	text: [
+		"Peat-Fired engines use peat as fuel (or the upgraded version of peat, Bituminous peat) and produce Ash as a by-product."
+	],
+	dependencies: [
+		"702981c6"
+	],
+	tasks: [{
+		uid: "38fc734e",
+		type: "item",
+		items: [{
+			item: "forestry:engine_peat"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c93d9df",
+		type: "item",
+		item: "forestry:bituminous_peat",
+		count: 5
+	}]
+}

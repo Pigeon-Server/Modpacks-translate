@@ -1,0 +1,23 @@
+{
+	title: "Skeletons! IV",
+	icon: "minecraft:skull",
+	x: 2.75d,
+	y: 8.25d,
+	text: [
+		""
+	],
+	dependencies: [
+		"83c1ff59"
+	],
+	tasks: [{
+		uid: "354c6620",
+		type: "kill",
+		entity: "minecraft:skeleton",
+		value: 1024L
+	}],
+	rewards: [{
+		uid: "fd053a1b",
+		type: "item",
+		item: "jjcoin:diamond_coin"
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: 7.5d,
+	text: [
+		"The crude hatchet is used for gathering logs in the very early game. It is not a very durable tool and wears out easily. Upgrading to a Tinkers' Hatchet or Mattock as early as possible is recommended."
+	],
+	dependencies: [
+		"4e0da5d3"
+	],
+	tasks: [{
+		uid: "eff314d8",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:crude_hatchet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f617a17e",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:rock_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "cbecd417",
+		type: "item",
+		item: "minecraft:slime_ball",
+		count: 6
+	}]
+}

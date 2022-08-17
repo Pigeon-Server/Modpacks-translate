@@ -1,0 +1,25 @@
+{
+	title: "Copper tier rewards",
+	icon: "jjcoin:copper_coin",
+	x: 3.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"02eaadaa"
+	],
+	tasks: [{
+		uid: "ff496883",
+		type: "item",
+		items: [{
+			item: "jjcoin:copper_coin"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bb447cb6",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	}]
+}

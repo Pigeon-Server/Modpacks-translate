@@ -1,0 +1,325 @@
+{
+	title: "Deco crate",
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "chisel:futura 1 2",
+		count: 64
+	},
+	{
+		item: {
+			id: "tcomplement:chisel",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.12f,
+					FreeModifiers: 3,
+					Durability: 1224,
+					HarvestLevel: 3,
+					Attack: 5.13f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.12f,
+					FreeModifiers: 0,
+					Durability: 1224,
+					HarvestLevel: 3,
+					Attack: 5.13f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"chisel",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"ruby",
+						"ruby"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "reflect",
+					color: -3211264,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"reflect",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: "chisel:factory 1 6",
+		count: 64
+	},
+	{
+		item: "chisel:endstone1 1 5",
+		count: 64
+	},
+	{
+		item: {
+			id: "tcomplement:chisel",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.12f,
+					FreeModifiers: 3,
+					Durability: 1224,
+					HarvestLevel: 3,
+					Attack: 5.13f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.12f,
+					FreeModifiers: 0,
+					Durability: 1224,
+					HarvestLevel: 3,
+					Attack: 5.13f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"chisel",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"sapphire",
+						"sapphire"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "launch",
+					color: -16043050,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"launch",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: "chisel:bookshelf_spruce 1 7",
+		count: 64
+	},
+	{
+		item: "chisel:bricks1 1 1",
+		count: 64
+	},
+	{
+		item: "chisel:bricks2 1 5",
+		count: 64
+	},
+	{
+		item: "chisel:cobblestone1 1 7",
+		count: 64
+	},
+	{
+		item: "chisel:carpet_orange",
+		count: 64
+	},
+	{
+		item: "chisel:brownstone 1 8",
+		count: 64
+	},
+	{
+		item: "chisel:voidstonerunic 1 4",
+		count: 64
+	},
+	{
+		item: "chisel:voidstone 1 2",
+		count: 64
+	},
+	{
+		item: "chisel:waterstone 1 1",
+		count: 64
+	},
+	{
+		item: "chisel:wool_orange 1 1",
+		count: 64
+	},
+	{
+		item: "chisel:wool_blue",
+		count: 64
+	},
+	{
+		item: "chisel:templemossy 1 13",
+		count: 64
+	},
+	{
+		item: "chisel:temple 1 10",
+		count: 64
+	},
+	{
+		item: "chisel:technicalnew 1 7",
+		count: 64
+	},
+	{
+		item: "chisel:obsidian 1 3",
+		count: 64
+	},
+	{
+		item: "chisel:planks-oak 1 12",
+		count: 64
+	},
+	{
+		item: "chisel:netherbrick 1 8",
+		count: 64
+	},
+	{
+		item: "chisel:marble1 1 8",
+		count: 64
+	},
+	{
+		item: "chisel:lavastone1 1 6",
+		count: 64
+	},
+	{
+		item: "chisel:laboratory",
+		count: 64
+	},
+	{
+		item: "chisel:laboratory 1 10",
+		count: 64
+	},
+	{
+		item: "chisel:hardenedclay1 1 6",
+		count: 64
+	},
+	{
+		item: "chisel:purpur1 1 2",
+		count: 64
+	},
+	{
+		item: "chisel:concrete_white1 1 4",
+		count: 64
+	},
+	{
+		item: "chisel:diorite 1 1",
+		count: 64
+	},
+	{
+		item: "quark:jasper",
+		count: 64
+	},
+	{
+		item: "quark:jasper 1 1",
+		count: 64
+	},
+	{
+		item: "quark:elder_prismarine",
+		count: 64
+	},
+	{
+		item: "quark:elder_sea_lantern",
+		count: 64
+	},
+	{
+		item: "railcraft:brick_nether 1 2",
+		count: 64
+	},
+	{
+		item: "railcraft:brick_red_sandy 1 2",
+		count: 64
+	},
+	{
+		item: "railcraft:brick_sandy 1 2",
+		count: 64
+	},
+	{
+		item: "railcraft:brick_quarried 1 2",
+		count: 64
+	},
+	{
+		item: "railcraft:brick_infernal 1 2",
+		count: 64
+	},
+	{
+		item: "railcraft:brick_bloodstained 1 2",
+		count: 64
+	},
+	{
+		item: "railcraft:brick_abyssal 1 2",
+		count: 64
+	},
+	{
+		item: "minecraft:stone 1 6",
+		count: 64
+	},
+	{
+		item: "railcraft:brick_pearlized 1 2",
+		count: 64
+	},
+	{
+		item: "railcraft:reinforced_concrete 1 8",
+		count: 64
+	},
+	{
+		item: "quark:carved_wood 1 2",
+		count: 64
+	},
+	{
+		item: "quark:world_stone_pavement",
+		count: 64
+	},
+	{
+		item: "quark:vertical_planks 1 2",
+		count: 64
+	},
+	{
+		item: "quark:midori_block",
+		count: 64
+	},
+	{
+		item: "quark:world_stone_bricks 1 3",
+		count: 64
+	},
+	{
+		item: "quark:world_stone_bricks 1 7",
+		count: 64
+	},
+	{
+		item: "quark:slate",
+		count: 64
+	},
+	{
+		item: "railcraft:brick_red_nether 1 2",
+		count: 64
+	}],
+	loot_crate: {
+		string_id: "deco_crate",
+		item_name: "Deco crate",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

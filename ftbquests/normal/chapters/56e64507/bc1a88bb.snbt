@@ -1,0 +1,43 @@
+{
+	title: "Need more food",
+	icon: {
+		id: "vanillafoodpantry:breads",
+		tag: {
+			_Hord_Instructions: {
+				FoodPortion: 5,
+				FoodTotal: 14,
+				XFood: 1b
+			}
+		},
+		Damage: 407s
+	},
+	x: 9.5d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0bf9af21"
+	],
+	tasks: [{
+		uid: "0159f259",
+		type: "item",
+		items: [{
+			id: "vanillafoodpantry:breads",
+			tag: {
+				_Hord_Instructions: {
+					FoodPortion: 5,
+					FoodTotal: 14,
+					XFood: 1b
+				}
+			},
+			Damage: 407s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ad3cf2e",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

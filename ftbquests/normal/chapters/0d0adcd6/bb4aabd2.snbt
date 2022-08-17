@@ -1,0 +1,28 @@
+{
+	title: "Switch",
+	icon: "immersiveengineering:connector 1 9",
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"It is used as a relay (connector of wires) for low or medium voltage. However, it will only allow Redstone Flux (RF) to pass through when activated, which is done by the player right-clicking the block.",
+		"",
+		"",
+		""
+	],
+	dependencies: [
+		"44715b55"
+	],
+	tasks: [{
+		uid: "596a9be6",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "694254ba",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	}]
+}

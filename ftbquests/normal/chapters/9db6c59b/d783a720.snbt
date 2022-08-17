@@ -1,0 +1,57 @@
+{
+	title: "Farm Block",
+	icon: {
+		id: "forestry:ffarm",
+		tag: {
+			FarmBlock: 0
+		}
+	},
+	x: 22.5d,
+	y: -0.5d,
+	text: [
+		"MultiFarms are multi-block structures that are built using special Farm Blocks and building blocks (stones/bricks).",
+		"",
+		"By default the smallest farm size is 15×15 while the largest is 25×25.",
+		"",
+		"Multi-Farms also support specialized Farm Blocks to add functionality, the Farm Gearbox being the only one required (as it's the only way to supply power to the multi-farm). There is also a Farm Valve, Farm Hatch and Farm Control.",
+		"",
+		"Required Resources",
+		"Due to soil erosion caused by overharvesting on an industrial scale, farms need to be supplied with fertilizer to replenish their soil's mineral content.",
+		"The amount required varies for different types of farms.",
+		"Though compost and mulch can both replace fertilizer anywhere else, only phosphorous fertilizer ground from apatite gems satisfies these needs of a farm.",
+		"",
+		"Most farms will also require a steady supply of water to keep crops and soil hydrated.",
+		"",
+		"Farm Block",
+		"The Farm Block is the main structural block of the Farm, and because the Farm is multi-block structure, you will need several of them, depending on how big you want it.",
+		"hird layer of the farm must entirely consist of these. All other blocks in the structure are interchangeable with any of the other component blocks though.",
+		"",
+		"See https://forestryforminecraft.info/farms:structure for farm layouts.",
+		"",
+		""
+	],
+	dependencies: [
+		"08deb27e"
+	],
+	tasks: [{
+		uid: "26052985",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "891647fb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "organic_crate"
+			}
+		}
+	}]
+}

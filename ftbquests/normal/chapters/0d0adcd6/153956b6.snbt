@@ -1,0 +1,37 @@
+{
+	title: "Mounts",
+	icon: "immersiveengineering:wooden_device1 1 3",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"A Transformer can be placed special on it for aesthetic purposes.",
+		"",
+		"The Wooden Post is four blocks tall. The wooden part of it is climbable, similar to a Ladder. Hitting a side of the top block with an Engineer's Hammer will spring an \"arm\" from it. The arm will automatically flip if a block is placed under it."
+	],
+	dependencies: [
+		"c2959f91"
+	],
+	tasks: [{
+		uid: "ae37e262",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6404b65b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "food_crate"
+			}
+		}
+	},
+	{
+		uid: "47b2035a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

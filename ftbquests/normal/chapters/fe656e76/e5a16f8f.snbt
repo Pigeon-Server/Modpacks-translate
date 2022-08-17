@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: 10.0d,
+	text: [
+		"Not only does it reduce locomotive damages, it also prevents electric damages at the cost of its durability."
+	],
+	dependencies: [
+		"e8e80567"
+	],
+	tasks: [{
+		uid: "085e2a33",
+		type: "item",
+		items: [{
+			item: "railcraft:armor_overalls"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2e68b08",
+		type: "item",
+		item: "railcraft:armor_goggles"
+	}]
+}

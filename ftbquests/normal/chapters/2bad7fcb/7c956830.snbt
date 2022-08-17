@@ -1,0 +1,27 @@
+{
+	title: "Shiny!",
+	icon: "techreborn:solar_panel",
+	x: 7.0d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"627c51cd"
+	],
+	tasks: [{
+		uid: "bf9e2268",
+		type: "item",
+		items: [{
+			item: "jjcoin:diamond_coin"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9ff3cb6d",
+		type: "item",
+		item: "techreborn:solar_panel",
+		count: 2
+	}]
+}

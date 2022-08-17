@@ -1,0 +1,33 @@
+{
+	title: "Mill Stone",
+	icon: "betterwithmods:single_machine",
+	x: -3.0d,
+	y: 1.0d,
+	text: [
+		"The Mill Stone is a contraption made from heavy stone. When Mechanical power is applied, the gear inside is turned. The gear crushes some raw materials into finer materials that may be more usaful than the original form. Items put into the millstone are ground one-by-one, and the products of grinding are ejected in a random horizontal direction.",
+		" ",
+		"Any item that cannot be ground will simply stay in the Mill Stone's inventory.",
+		"",
+		"§3§3§4§4§3§3§2§8§o-§f§f§e§5 §7§8§3§3§2§3§4§2§8§oIt can only be powered by an axle if it is going directly into the top or bottom of the block.",
+		"",
+		"- All processed material it produces is immediately ejected to the sides of the Mill Stone, even if there are blocks there (the items will get stuck in the blocks)."
+	],
+	dependencies: [
+		"0448f288",
+		"034a3d0b"
+	],
+	tasks: [{
+		uid: "5c9b45e1",
+		type: "item",
+		items: [{
+			item: "betterwithmods:single_machine"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "314acb01",
+		type: "item",
+		item: "betterwithmods:hemp",
+		count: 10
+	}]
+}

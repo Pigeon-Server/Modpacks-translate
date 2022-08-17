@@ -1,0 +1,10 @@
+{
+	title: "☠ The Grind",
+	icon: "minecraft:skull 1 2",
+	description: [
+		"Don't stop."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,21 @@
+{
+	x: 7.0d,
+	y: 11.5d,
+	shape: "circle",
+	text: [
+		"For some quests you will be awarded money. You can buy some useful stuff in the shop with it."
+	],
+	dependencies: [
+		"5a77f3e3"
+	],
+	tasks: [{
+		uid: "481e380c",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "8556735c",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

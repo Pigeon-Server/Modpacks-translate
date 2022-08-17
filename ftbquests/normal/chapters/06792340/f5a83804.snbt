@@ -1,0 +1,38 @@
+{
+	title: "Steel finally!",
+	icon: "immersiveengineering:metal 1 8",
+	x: 10.5d,
+	y: 8.0d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"c7ef1ed8"
+	],
+	tasks: [{
+		uid: "a9a3c2c9",
+		type: "item",
+		title: "Any ingotSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ce1a49f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Decorate",
+	icon: "immersiveengineering:stone_decoration 1 5",
+	x: 8.0d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "393914ea",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4437f5dd",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

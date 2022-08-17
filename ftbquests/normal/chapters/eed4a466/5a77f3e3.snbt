@@ -1,0 +1,50 @@
+{
+	x: 8.0d,
+	y: 10.5d,
+	text: [
+		"Like the smeltery, it can melt down ores and ingots into molten metals that can then be used for casting.",
+		"",
+		"Unlike the smeltery, it does not double ores and can only hold one liquid at a time, preventing alloying. The melter can be fueled using a lava tank, or using a new block known as a heater to run off furnace fuels at a lower temperature."
+	],
+	dependencies: [
+		"5c5bdd59"
+	],
+	tasks: [{
+		uid: "5fa49d79",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_melter"
+		}]
+	},
+	{
+		uid: "a390d1c9",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_melter 1 8"
+		}]
+	},
+	{
+		uid: "39209c5c",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_casting"
+		}]
+	},
+	{
+		uid: "387276d9",
+		type: "item",
+		items: [{
+			item: "ceramics:faucet"
+		}]
+	}],
+	rewards: [{
+		uid: "892c1c60",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "deco_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: 11.5d,
+	text: [
+		"You can make cast with molten copper"
+	],
+	dependencies: [
+		"5a77f3e3"
+	],
+	tasks: [{
+		uid: "73758cf0",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	}],
+	rewards: [{
+		uid: "1b06da5b",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

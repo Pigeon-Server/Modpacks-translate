@@ -1,0 +1,103 @@
+{
+	title: "Fermenter",
+	icon: "immersiveengineering:metal_multiblock 1 8",
+	x: 10.5d,
+	y: 6.0d,
+	text: [
+		"The Fermenter is a 3x3x3 multiblock structure.",
+		"",
+		"Putting a reactant in one of the left-hand slots will start the process. 800 Redstone Flux (RF) is consumed per use. After about a second, the substance will be converted into Ethanol.",
+		"",
+		"RF can be received from the top and bottom central blocks, and Ethanol can output from the bottom-central block of each side."
+	],
+	dependencies: [
+		"a2b2aa24"
+	],
+	tasks: [{
+		uid: "a0170019",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 6 1"
+		}],
+		count: 6L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3ad4329a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 2 6"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c67db88b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "325e4dc1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 2 4"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28b35b46",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron 4"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "03e988d3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 4 9"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8faa1b6f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ethanol",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7629d013",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:Fermenter"
+			}
+		}
+	},
+	{
+		uid: "0c1b90d4",
+		type: "item",
+		item: "minecraft:melon",
+		count: 64
+	},
+	{
+		uid: "19383bff",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

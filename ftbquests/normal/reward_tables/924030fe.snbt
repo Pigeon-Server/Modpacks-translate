@@ -1,0 +1,137 @@
+{
+	title: "Potion crate",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_swiftness"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_swiftness"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:night_vision"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_night_vision"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extraalchemy:learning_normal"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:teleport_surface"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:long_diamond_skin"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:strong_diamond_skin"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:health_boost"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_strength"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_strength"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_regeneration"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_regeneration"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extraalchemy:leech_long"
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "potion_crate",
+		item_name: "Potion crate",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

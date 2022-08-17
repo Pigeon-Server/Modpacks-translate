@@ -1,0 +1,37 @@
+{
+	x: 8.0d,
+	y: 11.0d,
+	text: [
+		"The Crowbar is a multi-purpose tool any rail engineer should carry. It makes removal of old rails a breeze and even works on Detector Blocks and Loaders. Additionally, right-clicking on a rail will allow you to adjust the rail.",
+		"",
+		"Most of the time that means reversing the rail's direction, but some rails will open a GUI. Right-clicking a Detector Block, Cart Dispenser, or Advanced Loader will turn the block to face the side clicked on.",
+		"",
+		"The Crowbar can also interact with carts in number of ways. Of interest is the ability to give carts a small boost just by whacking them with the Crowbar (right click).",
+		"On Locomotives, this actually flips the facing of the locomotive. Additionally, the Crowbar can be used to link carts together with shift right-click, see Cart Linking for more information."
+	],
+	dependencies: [
+		"d165ef39"
+	],
+	tasks: [{
+		uid: "b695b266",
+		type: "item",
+		items: [{
+			item: "railcraft:tool_crowbar_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd631fd5",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 14s
+				}]
+			}
+		}
+	}]
+}

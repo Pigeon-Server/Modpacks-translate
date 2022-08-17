@@ -1,0 +1,69 @@
+{
+	x: 5.0d,
+	y: 15.0d,
+	text: [
+		"They are items that represent different Track Kits. Right click on Flex Tracks with them to turn the Flex Tracks into Outfitted Tracks.",
+		"",
+		"- Track Kit:Buffer Stop. In need of a stylish bookend for your rail lines? Then this track is for you! Its the perfect end cap to prevent carts from rolling off the end of your tracks. Cart's won't bounce off or explode here, too!"
+	],
+	dependencies: [
+		"b516f7bd"
+	],
+	tasks: [{
+		uid: "2acf9566",
+		type: "item",
+		items: [{
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_buffer"
+				}
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "593136ce",
+		type: "item",
+		items: [{
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_booster"
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "2ce257e3",
+		type: "item",
+		items: [{
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_dumping"
+				}
+			},
+			Damage: 7s
+		}]
+	},
+	{
+		uid: "c3006a1d",
+		type: "item",
+		items: [{
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_control"
+				}
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "daab9063",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Carpenter",
+	icon: "forestry:carpenter",
+	x: 18.5d,
+	y: 0.5d,
+	text: [
+		"The Carpenter is similar to an Automatic Crafting Table, except it has a specific recipe set. For example, you aren't able to automatically craft Stone into Stone Bricks.",
+		"",
+		"The Carpenter’s main task is the creation of Bog Earth, Humus (although there are methods to make these items without this machine, they aren't as efficient) and the [Crating] of some items and blocks for more compact storage.",
+		"",
+		"It is also used in the creation of the Beealyzer, Treealyzer and the various Woven Backpacks, among other machines, tools and items that are needed for Forestry and other mods."
+	],
+	dependencies: [
+		"e70123c2"
+	],
+	tasks: [{
+		uid: "06e4ca4b",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2fd9d5f2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "deco_crate"
+			}
+		}
+	},
+	{
+		uid: "3ec2d700",
+		type: "item",
+		item: "forestry:honeyed_slice",
+		count: 3
+	}]
+}

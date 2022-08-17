@@ -1,0 +1,25 @@
+{
+	title: "Cable",
+	icon: "refinedstorage:cable",
+	x: 3.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a23bcce5"
+	],
+	tasks: [{
+		uid: "7cd6ae4d",
+		type: "item",
+		items: [{
+			item: "refinedstorage:cable"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4fcc7da",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	}]
+}

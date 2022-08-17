@@ -1,0 +1,15 @@
+{
+	title: "✈ Transportation Methods",
+	icon: {
+		id: "railcraft:locomotive_electric",
+		tag: {
+			model: "railcraft:default"
+		}
+	},
+	description: [
+		"I would walk 500 miles... And I would walk 500 more... Just to be the man who walked a 1000 miles..."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,529 @@
+{
+	title: "Toolparts crate",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "bronze"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "advancedalloy"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "nickel"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "silver"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "peridot"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "ruby"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "treatedwood"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "zinc"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "peridot"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "yellowgarnet"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "redgarnet"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "nickel"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:boots_core",
+			tag: {
+				Material: "electrum"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:polishing_kit",
+			tag: {
+				Material: "ardite"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:chest_core",
+			tag: {
+				Material: "bronze"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:helmet_core",
+			tag: {
+				Material: "copper"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:boots_core",
+			tag: {
+				Material: "ardite"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:leggings_core",
+			tag: {
+				Material: "electrum"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:polishing_kit",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "treatedwood"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "tin"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "copper"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "ruby"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "redgarnet"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "bone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:armor_plate",
+			tag: {
+				Material: "lead"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "constantan"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "platinum"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "yellowgarnet"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "tin"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "lead"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "bronze"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "platinum"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "treatedwood"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "bone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "yellowgarnet"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "silver"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "sapphire"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "ruby"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "electrum"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "electrum"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tough_binding",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "ardite"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "nickel"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:armor_trim",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:binding",
+			tag: {
+				Material: "invar"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:armor_plate",
+			tag: {
+				Material: "steel"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:binding",
+			tag: {
+				Material: "nickel"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:armor_trim",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:armor_trim",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:armor_trim",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "lead"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "ruby"
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "toolparts_crate",
+		item_name: "Toolparts crate",
+		color: 16777215,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

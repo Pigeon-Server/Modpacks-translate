@@ -1,0 +1,40 @@
+{
+	title: "Hemp",
+	icon: "betterwithmods:material 1 2",
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"Hemp is a crop that may be planted like wheat. The tough fibrous stem of the hemp plant can be ground into§1 Hemp Fibers §r§0§rusing a§2 Mill Stone,§0 §rand those fibers can then be fashioned into rope, fabric, and other items.",
+		"",
+		"§8It will only grow under the following light sources:",
+		"- Direct access to sunlight (The hemp crop must be able to see the sky but does not require lighting at night time if growing outdoors).",
+		"- It will only grow on hydrated soil or a Planter, and will die if soil loses hydration.",
+		"- Hemp growth can be accelerated by bonemeal."
+	],
+	dependencies: [
+		"5936d597"
+	],
+	tasks: [{
+		uid: "3775673c",
+		type: "item",
+		items: [{
+			item: "betterwithmods:material 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d13abcf",
+		type: "item",
+		item: "maplesyrup:pancakes 1 1"
+	},
+	{
+		uid: "427ca1a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "organic_crate"
+			}
+		}
+	}]
+}

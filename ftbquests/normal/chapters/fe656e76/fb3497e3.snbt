@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 11.0d,
+	text: [
+		"In order to preserve Wooden Ties against rot and decay, we need to coat them with Creosote Oil. The particular properties of this oil derived from Coal or Wood helps to waterproof and protect wood against many forms of insects and bacteria that would",
+		"otherwise destroy it in short order."
+	],
+	dependencies: [
+		"b0458784"
+	],
+	tasks: [{
+		uid: "bfc2c9c4",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "creosote",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "feed6510",
+		type: "item",
+		item: "railcraft:brick_quarried 1 2",
+		count: 64
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Zombies! IV",
+	icon: "minecraft:skull 1 2",
+	x: 1.25d,
+	y: 8.25d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ddb0ed03"
+	],
+	tasks: [{
+		uid: "30a1bc4d",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 1024L
+	}],
+	rewards: [{
+		uid: "e1373447",
+		type: "item",
+		item: "jjcoin:diamond_coin"
+	}]
+}

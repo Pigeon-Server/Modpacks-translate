@@ -1,0 +1,33 @@
+{
+	title: "Kiln",
+	icon: "minecraft:brick_block",
+	x: 8.5d,
+	y: 4.0d,
+	text: [
+		"The kiln is a structure built out of brick blocks over stoked hibachis, used to fire unfired pottery.",
+		"",
+		"One block bellow the bottom brick block must be a lit Hibachi stoked by a Bellows. Having more than one hibachi speeds up the progress, just like with the Cauldron. Unfired Pottery is put in the center of the kiln and will turn into various kinds of pottery, depending on what type of Unfired Pottery you put in the kiln."
+	],
+	dependencies: [
+		"dc6e3056"
+	],
+	tasks: [{
+		uid: "bb5ebbeb",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block 5"
+		}],
+		count: 5L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bace9ec6",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "c6a47d75",
+		type: "item",
+		item: "betterwithmods:unfired_pottery 1 3"
+	}]
+}

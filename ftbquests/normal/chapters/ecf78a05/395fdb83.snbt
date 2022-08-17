@@ -1,0 +1,25 @@
+{
+	title: "Imroved Processor",
+	icon: "refinedstorage:processor 1 4",
+	x: 5.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7d484996"
+	],
+	tasks: [{
+		uid: "89a4832b",
+		type: "item",
+		items: [{
+			item: "refinedstorage:processor 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b246e45",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	}]
+}

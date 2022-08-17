@@ -1,0 +1,26 @@
+{
+	x: 10.0d,
+	y: 10.0d,
+	text: [
+		"The Track Layer will lay down one type of Track as it moves over blocks that don't currently have Track on them.",
+		"",
+		"If linked to a Chest Cart, it will pull new Tracks from it.",
+		"This cart is not self powered! To set it moving on it's own place a Furnace Cart or Locomotive behind it and link them with a crowbar."
+	],
+	dependencies: [
+		"e8e80567"
+	],
+	tasks: [{
+		uid: "a9623919",
+		type: "item",
+		items: [{
+			item: "railcraft:mow_track_layer"
+		}]
+	}],
+	rewards: [{
+		uid: "c524de62",
+		type: "item",
+		item: "minecraft:rail",
+		count: 32
+	}]
+}

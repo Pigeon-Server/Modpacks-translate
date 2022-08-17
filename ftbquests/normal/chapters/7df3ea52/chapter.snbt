@@ -1,0 +1,10 @@
+{
+	title: "V - Industrial Revolution",
+	icon: "techreborn:part 1 24",
+	description: [
+		"Goals of this age: more advanced machines."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

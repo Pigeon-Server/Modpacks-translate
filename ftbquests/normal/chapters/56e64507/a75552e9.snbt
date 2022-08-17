@@ -1,0 +1,25 @@
+{
+	title: "Need more food",
+	icon: "betterwithmods:chicken_soup",
+	x: 10.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ea55da2b"
+	],
+	tasks: [{
+		uid: "96a6caf8",
+		type: "item",
+		items: [{
+			item: "betterwithmods:chicken_soup"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "080379ef",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

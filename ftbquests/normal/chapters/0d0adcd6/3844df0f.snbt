@@ -1,0 +1,69 @@
+{
+	title: "Pump it",
+	icon: "immersiveengineering:metal_device0 1 5",
+	x: 8.5d,
+	y: 9.0d,
+	text: [
+		"It is used together with the Fluid Pipe to move liquids at faster speeds, into tanks without input/output, and to suck up liquids. The Fluid Pump is two blocks tall.",
+		"",
+		"To use fluid containers (Tanks) without explicit input/output, the Fluid Pump can be configured to automatically pull (or push) from the fluid container. The base of the Fluid Pump should be configured: hitting a side with an Engineer's Hammer will ",
+		" change the configuration of that side; doing so while sneaking will change the configuration of the side opposite the one hit. One blue dot is an input, one orange dot is an output, and no dot will not accept any liquids.",
+		"",
+		"The Fluid Pump must be powered with a Redstone signal in order to function. The signal can be applied to any side other than the top or bottom.",
+		"",
+		"Using a Fluid Pump instead of a Fluid Pipe can make liquid transfer five times faster. This is more useful for larger setups.",
+		"",
+		"The last use of the Fluid Pump is for pumping out raw liquids, such as Lava. This, unlike the other functions, requires Redstone Flux (RF). RF should be input through the top side of the top block in the Fluid Pump. It will pull in liquids through ",
+		"its input side/sides.",
+		"",
+		"When pumping raw liquids, certain liquids will be converted to other blocks; in particular Lava to Cobblestone. However, raw liquids will just disappear.",
+		"-------------",
+		"The Fluid Pipe will automatically pull liquids from a liquid output side to put them into an input liquid side, as shown to the right. Right-clicking a Fluid Pipe with an Engineer's Hammer in it's connecting spot will prevent it from connecting, or ",
+		"allow it to connect if it has been disabled.",
+		"",
+		"Fluid Pipes can be covered with a Scaffolding; such as a Treated Wood Scaffolding or a Steel Scaffolding. Scaffoldings can be used to climb Fluid Pipes, or simply for decoration.",
+		"",
+		"The Fluid Pipe is fairly slow on its own; a Fluid Pump can be used to speed the Fluid Pipe at the cost of some Redstone Flux (RF)."
+	],
+	dependencies: [
+		"5ab06227"
+	],
+	tasks: [{
+		uid: "4c665f92",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "467e0070",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c92394e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "45f90a37",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "7dcdf81e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "fluid_crate"
+			}
+		}
+	}]
+}

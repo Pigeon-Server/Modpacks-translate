@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	text: [
+		"Solar engine (Engine - Daylight Sensor block): engine that runs only when the sun is out"
+	],
+	dependencies: [
+		"a2616bc5"
+	],
+	tasks: [{
+		uid: "3029641e",
+		type: "item",
+		items: [{
+			item: "minecraft:daylight_detector"
+		}]
+	}],
+	rewards: [{
+		uid: "89209554",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "ee152cbc",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

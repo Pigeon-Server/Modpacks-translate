@@ -1,0 +1,31 @@
+{
+	title: "Voltmeter",
+	icon: "immersiveengineering:tool 1 2",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"Right-clicking a Redstone Flux (RF) Capacitor (like the LV Capacitor) will yield the player it's total energy storage via Chat (the tool itself requires no energy or durability to use). Shift-right-clicking a pair of Wire Connector (like the LV Wire ",
+		"Connector) will give the player the average RF loss between the two points."
+	],
+	dependencies: [
+		"e714b45c"
+	],
+	tasks: [{
+		uid: "ed5066a7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73cac363",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "potion_crate"
+			}
+		}
+	}]
+}

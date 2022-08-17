@@ -1,0 +1,30 @@
+{
+	title: "Baloon",
+	icon: "immersiveengineering:cloth_device 1 1",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"Balloons are sacks of fabric with a heat source below to keep them afloat. They will also emit light, but despite the torch, they are not a fire hazard. Balloons can be placed like normal blocks, or, when no block is targeted, they will be placed in the air in front of you. Similar to the Structural Connectors, you can attach Hemp Rope and Steel Cable to the balloon. Sneak-rightclicking allows you to set a height offset for the balloon, allowing you to place it up to 5 blocks above the target."
+	],
+	dependencies: [
+		"ff2afc3a"
+	],
+	tasks: [{
+		uid: "9b367953",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:cloth_device 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4707a419",
+		type: "item",
+		item: "jjcoin:copper_coin"
+	},
+	{
+		uid: "959ff1e3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

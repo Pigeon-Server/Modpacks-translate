@@ -1,0 +1,56 @@
+{
+	icon: "tinkersurvival:crude_saw",
+	x: -3.0d,
+	y: 6.5d,
+	text: [
+		"The crude saw is a crafting tool, it can saw logs into planks, or planks into sticks. Just place above the item in your crafting grid. This doesn't consume the saw, just causes some durability loss. The crude saw has a very poor durability.",
+		"",
+		" It is recommended that you upgrade to the Tinkers' Saw as early as possible."
+	],
+	dependencies: [
+		"4e0da5d3"
+	],
+	tasks: [{
+		uid: "48dce61f",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:crude_saw"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "641d2a77",
+		type: "item",
+		title: "Any plankWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "5859358c",
+		type: "item",
+		title: "Any workbench",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "workbench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "93a3a8d1",
+		type: "item",
+		item: "minecraft:feather",
+		count: 6
+	}]
+}

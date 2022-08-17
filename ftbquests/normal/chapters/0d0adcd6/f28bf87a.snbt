@@ -1,0 +1,41 @@
+{
+	title: "HV",
+	icon: "immersiveengineering:metal_device0 1 2",
+	x: 9.0d,
+	y: 2.0d,
+	text: [
+		"It is used to store Redstone Flux (RF), up to 4,000,000.",
+		"",
+		"Each side of the block has a certain configuration: no dots indicates no energy input or output, one blue dot and one orange dot indicating an input, and two orange dots indicating an output. Right-clicking the capacitor with the Engineer's Hammer",
+		"will change this configuration (shift-right-clicking will change the side opposite the player clicks).",
+		"",
+		"The HV Capacitor has no GUI. To find the current energy storage amount, WAILA or an Engineer's Voltmeter can be used."
+	],
+	dependencies: [
+		"1613f4fd"
+	],
+	tasks: [{
+		uid: "fd4916f9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4541eedd",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	},
+	{
+		uid: "92507aa9",
+		type: "item",
+		item: "engineersdecor:sign_danger"
+	},
+	{
+		uid: "bf85e898",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	}]
+}

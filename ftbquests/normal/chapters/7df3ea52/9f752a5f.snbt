@@ -1,0 +1,25 @@
+{
+	title: "Capacitor Bank",
+	icon: "enderio:block_cap_bank 1 2",
+	x: 10.25d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f4b6de43"
+	],
+	tasks: [{
+		uid: "a7ac20d6",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4de3be02",
+		type: "item",
+		item: "chancecubes:chance_cube 1 25"
+	}]
+}

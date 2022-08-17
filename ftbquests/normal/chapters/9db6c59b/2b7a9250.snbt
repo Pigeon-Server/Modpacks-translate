@@ -1,0 +1,32 @@
+{
+	title: "Still",
+	icon: "forestry:still",
+	x: 27.5d,
+	y: 4.5d,
+	text: [
+		"The Still is a machine capable of refining Biomass into Biofuel, at a 10:3 ratio (for every 10 Biomass buckets processed you get 3 Biofuel buckets).",
+		"",
+		"Biofuel can then be used in the Bio Generator for generating EU."
+	],
+	dependencies: [
+		"c8aaf585"
+	],
+	tasks: [{
+		uid: "e4d28c58",
+		type: "item",
+		items: [{
+			item: "forestry:still"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9829d19c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "potion_crate"
+			}
+		}
+	}]
+}

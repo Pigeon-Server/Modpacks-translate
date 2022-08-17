@@ -1,0 +1,44 @@
+{
+	title: "Farm Hatch",
+	icon: {
+		id: "forestry:ffarm",
+		tag: {
+			FarmBlock: 0
+		},
+		Damage: 3s
+	},
+	x: 23.5d,
+	y: -0.5d,
+	text: [
+		"Farm Hatch (Pipe Connectivity)",
+		"You can supply and extract items from the Farm by using Farm Hatches that are connected to Pipe systems.",
+		"",
+		"The Farm Hatch is clever enough to know which item goes where. If an item isn't appropriate for the farm's configuration, the Hatch will simply reject it."
+	],
+	dependencies: [
+		"d783a720"
+	],
+	tasks: [{
+		uid: "c33d8838",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "446d6885",
+		type: "item",
+		item: "forestry:apatite",
+		count: 5
+	},
+	{
+		uid: "b378ca48",
+		type: "item",
+		item: "minecraft:hopper"
+	}]
+}

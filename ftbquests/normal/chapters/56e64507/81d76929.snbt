@@ -1,0 +1,59 @@
+{
+	title: "Need more food",
+	icon: {
+		id: "vanillafoodpantry:decker",
+		tag: {
+			SAMPLE: 1b,
+			_Hord_Instructions: {
+				FoodPortion: 5,
+				FoodTotal: 30,
+				FoodSaturation: 0.9f,
+				UiTip: "Caramelized Allium
+Cooked Porkchop
+French Bread
+Ham Steak
+Homemade Cheese
+Effort Bonus",
+				XFood: 1b
+			}
+		},
+		Damage: 6s
+	},
+	x: 11.5d,
+	y: 6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0bf9af21"
+	],
+	tasks: [{
+		uid: "9f433118",
+		type: "item",
+		items: [{
+			id: "vanillafoodpantry:decker",
+			tag: {
+				SAMPLE: 1b,
+				_Hord_Instructions: {
+					FoodPortion: 5,
+					FoodTotal: 30,
+					FoodSaturation: 0.9f,
+					UiTip: "Caramelized Allium
+Cooked Porkchop
+French Bread
+Ham Steak
+Homemade Cheese
+Effort Bonus",
+					XFood: 1b
+				}
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "504dc435",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

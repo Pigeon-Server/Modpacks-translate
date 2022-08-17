@@ -1,0 +1,39 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"New boat types",
+		"",
+		"The Animal Boat: This bigger-than-usual boat allows you to transport entities - if they fit - over water more easily!",
+		"",
+		"The Modular Boat: This is the main attraction of the mod! This boat accepts lots of different modules to customize and automate your experience!",
+		""
+	],
+	dependencies: [
+		"b0458784"
+	],
+	tasks: [{
+		uid: "b3fcb35f",
+		type: "item",
+		items: [{
+			id: "moarboats:modular_boat",
+			tag: {
+				boat_data: {
+					linkFrontType: 1,
+					linkBackType: 1
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f30e144",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "a0ae00f3",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

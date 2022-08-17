@@ -1,0 +1,31 @@
+{
+	title: "Hv wire",
+	icon: "immersiveengineering:wirecoil 1 2",
+	x: 9.0d,
+	y: 1.0d,
+	text: [
+		"In order for Redstone Flux (RF) to enter or exit it, a HV Wire Connector is needed. The HV Wire Coil can only stretch up to 32 blocks, through blocks and/or liquids. Additionally, it can only manage up to 32768 RF/t."
+	],
+	dependencies: [
+		"f28bf87a"
+	],
+	tasks: [{
+		uid: "2d14d474",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5f3bdca",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	},
+	{
+		uid: "fb2b2dec",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	}]
+}

@@ -1,0 +1,83 @@
+{
+	title: "Lightning rod",
+	icon: "immersiveengineering:metal_multiblock 1 14",
+	x: 8.0d,
+	y: 1.0d,
+	text: [
+		"Stacking many Steel Fences on the middle block increases the chance of lightning hitting the middle block dramatically.",
+		"",
+		"One lightning strike will generate 16,000,000 Redstone Flux (RF) per default (it is configurable). All of the energy goes to the center block, but that energy will be dispersed to the blocks surrounding it."
+	],
+	dependencies: [
+		"f28bf87a"
+	],
+	tasks: [{
+		uid: "b54610ca",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 4 1"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ec9881cc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 4 2"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08d1af3a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 4 4"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3148c9b0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_decoration 4"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67098845",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 3 2"
+		}],
+		count: 3L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d182a583",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 8"
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "628e79c9",
+		type: "item",
+		item: "chancecubes:chance_cube"
+	},
+	{
+		uid: "5f97acd9",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:Lightningrod"
+			}
+		}
+	}]
+}

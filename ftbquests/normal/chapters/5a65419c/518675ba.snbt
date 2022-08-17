@@ -1,0 +1,22 @@
+{
+	title: "Decorate",
+	icon: "quark:smoker",
+	x: 11.25d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a91a405c",
+		type: "item",
+		items: [{
+			item: "quark:smoker"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19ea7c26",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

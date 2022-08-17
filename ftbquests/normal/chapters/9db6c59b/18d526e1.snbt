@@ -1,0 +1,38 @@
+{
+	title: "Biogas  engine",
+	icon: "forestry:engine_biogas",
+	x: 26.5d,
+	y: 5.5d,
+	text: [
+		"To start the engine when it's new or whenever it has cooled down - for example when it has used up all fuel and has idled for too long - you will need to dump lava into the secondary tank on the right hand side.",
+		"",
+		" The engine will then start to heat up and once it has reached minimum operating temperature it will start to produce energy.",
+		"Producing energy generates itself heat, so after the initial warmup a running biogas engine will keep itself heated without using up any further lava from its supply.",
+		"",
+		"Also, if the activating redstone signal is interrupted, the burning of fuel will pause completely:",
+		"fuel will not be lost, but if the Engine stays off for too long, it will need to consume some Lava to heat up again once the redstone signal is re-applied.",
+		"",
+		"However there is one important exception: If you use just plain water or milk to power your engine, the engine will not generate enough heat to counter the natural heat dissipation."
+	],
+	dependencies: [
+		"c8aaf585"
+	],
+	tasks: [{
+		uid: "4a9a0323",
+		type: "item",
+		items: [{
+			item: "forestry:engine_biogas"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "51baa79c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	}]
+}

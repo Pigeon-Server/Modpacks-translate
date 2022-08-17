@@ -1,0 +1,47 @@
+{
+	x: 6.0d,
+	y: 10.0d,
+	text: [
+		"This multiblock structure acts as a tank to store liquids. This tank is built out of Iron Tank Walls, Iron Tank Gauges, and an Iron Tank Valve. ",
+		"",
+		"This can be built in numerous sizes, and the larger it is, the more of a liquid it can store. It can be built with diameters of 3, 5, 7, and 9, with heights of 4, 5, 6, 7, and 8.",
+		"",
+		"The Iron Tank Valve has to be placed in the bottom layer of the tank. The walls and gauges are used as a shell for the tank, as it is built as a hollow structure.",
+		"",
+		"All Gauge and Wall blocks in the structure can be broken, and as long as the Valve isn't broken, no liquid will be lost."
+	],
+	dependencies: [
+		"d165ef39"
+	],
+	tasks: [{
+		uid: "dafdd1d0",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_iron_wall"
+		}]
+	},
+	{
+		uid: "3edc60dc",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_iron_gauge"
+		}]
+	},
+	{
+		uid: "94077de7",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_iron_valve"
+		}]
+	}],
+	rewards: [{
+		uid: "551d3dbc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "materials_crate"
+			}
+		}
+	}]
+}

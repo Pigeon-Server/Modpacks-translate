@@ -1,0 +1,36 @@
+{
+	title: "Thank you.",
+	icon: "minecraft:golden_apple 1 1",
+	x: -10.0d,
+	y: 7.5d,
+	text: [
+		"I always appreciate feedback. There wouldn't be any progress on my packs without your feedback.",
+		"So I want to say Thank everyone of you for any type of feedback you provided or keep providing.",
+		"",
+		"Yes, Thank you. Even if you're reading this for the first time. You did the thing - you were interested in pack so you downloaded it and playing it right now.",
+		"",
+		"If you're making let's plays of this pack; if you're recommending it to friends or enjoying it alone; if you're advertising it in your community or if you're hater and already preparing to leave bad negative feedback...",
+		"",
+		"Thank you.",
+		"",
+		"If you have anything to say - go to community's discord and leave a feedback. Anything from bugs or quests suggestion(even custom, just for you!) are welcomed.",
+		""
+	],
+	dependencies: [
+		"2b0a33ad"
+	],
+	tasks: [{
+		uid: "75e7c76a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0f7a1cb4",
+		type: "item",
+		item: "minecraft:golden_apple"
+	},
+	{
+		uid: "b9b1845b",
+		type: "item",
+		item: "minecraft:cookie"
+	}]
+}

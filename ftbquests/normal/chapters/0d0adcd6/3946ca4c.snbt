@@ -1,0 +1,35 @@
+{
+	title: "Mv connector",
+	icon: "immersiveengineering:connector 1 2",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"It is used to input and output Redstone Flux (RF) from Electrum Wire Coils.",
+		"",
+		"Right-clicking a MV Wire Connector with a Electrum Wire Coil links the first end of the cable. Right-clicking a different MV Wire Connector will connect them.",
+		"",
+		"Note a Electrum Wire Coil can only stretch 16 blocks in length."
+	],
+	dependencies: [
+		"37663013"
+	],
+	tasks: [{
+		uid: "45aa7731",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dd75b9ef",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "16fa1b9d",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 5
+	}]
+}

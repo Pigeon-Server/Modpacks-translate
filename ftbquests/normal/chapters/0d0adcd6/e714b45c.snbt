@@ -1,0 +1,40 @@
+{
+	title: "Lv wire",
+	icon: "immersiveengineering:wirecoil",
+	x: 3.0d,
+	y: 1.0d,
+	shape: "circle",
+	text: [
+		"In order for Redstone Flux (RF) to enter or exit it, a LV Wire Connector is needed. The LV Wire Coil can only stretch up to 16 blocks, through blocks and/or liquids. Additionally, it can only manage up to 2048 RF/t; for any higher, a MV Wire Coil is",
+		"needed.",
+		"",
+		"RF being transmitted over LV Cables has a 5% loss for every 16 blocks traversed (one chunk). This loss is applied to the starting amount of RF, so a 32 block traversal will see a 10% loss in RF, a 48 block traversal 15% loss and so on, reaching 100% ",
+		"Additionally there is a penalty applied for not fully using the cable- the above loss is increased by a factor that is 10% per 25% of the cable capacity that is unused."
+	],
+	dependencies: [
+		"44715b55"
+	],
+	tasks: [{
+		uid: "90a3bddd",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6603bd2f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "de9f540c",
+		type: "item",
+		item: "immersiveengineering:tool 1 1"
+	}]
+}

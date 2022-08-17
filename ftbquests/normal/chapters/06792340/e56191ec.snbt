@@ -1,0 +1,25 @@
+{
+	title: "Experienced Shower",
+	icon: "openblocks:xp_shower",
+	x: -3.0d,
+	y: 9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"08a890d3"
+	],
+	tasks: [{
+		uid: "ad19e0ae",
+		type: "item",
+		items: [{
+			item: "openblocks:xp_shower"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e8863c1b",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

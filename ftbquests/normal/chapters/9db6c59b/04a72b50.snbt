@@ -1,0 +1,41 @@
+{
+	title: "Squeezer",
+	icon: "forestry:squeezer",
+	x: 22.5d,
+	y: 3.5d,
+	text: [
+		"The Squeezer is a machine that is tasked with squeezing liquids from items. For example, you can squeeze Honey Drops into Liquid Honey.",
+		"",
+		"It can also be used to retrieve the liquids from the inside of cans, bottles, capsules, etc., with a small chance of retrieving some of the container's resources (such as Tin Ingots).",
+		"",
+		"Squeezer can be upgraded with Golden, Emerald, or Blazing Electron Tubes."
+	],
+	dependencies: [
+		"972b94d3",
+		"f3a98046"
+	],
+	tasks: [{
+		uid: "41bea1f9",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "99fc07a0",
+		type: "item",
+		item: "forestry:can",
+		count: 6
+	},
+	{
+		uid: "fefac071",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "organic_crate"
+			}
+		}
+	}]
+}

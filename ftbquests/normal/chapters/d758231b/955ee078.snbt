@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	dependencies: [
+		"bd88eb5e",
+		"d1ace157"
+	],
+	tasks: [{
+		uid: "f2d0230a",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}]
+	}],
+	rewards: [{
+		uid: "bb603474",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

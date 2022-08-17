@@ -1,0 +1,10 @@
+{
+	title: "❖Aesthetics",
+	icon: "chisel:chisel_iron",
+	description: [
+		"Ａ ｅ ｓ ｔ ｈ ｅ ｔ ｉ ｃ ｓ"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
